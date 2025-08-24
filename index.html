@@ -2,8 +2,8 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>مدونة مروان | مهندس برمجة موجهات</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marwan.dev</title>
   <meta name="description" content="مدونة مروان - Prompt Engineer | كتابة موجهات، نظم LLM، وهندسة منتجات ذكاء اصطناعي." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -61,8 +61,8 @@
       <h1 class="hxl">مرحباً</h1>
       <p class="lead">مهندس أوامر الذكاء الاصطناعي | Prompt Engineer</p>
       <div class="cta-row">
-        <a class="btn primary" data-link data-route="contact" href="/contact">الصفحة الرئيسية</a>
-        <a class="btn ghost" data-link data-route="about" href="/about">عنّي</a>
+        <a class="btn btn-primary" data-link data-route="contact" href="/contact">تواصل</a>
+        <a class="btn btn-secondary" data-link data-route="about" href="/about">عنّي</a>
       </div>
     </section>
 
@@ -76,7 +76,20 @@
           <li>اختصاص أوامر باللغة العربية تحديداً.</li>
         </ul>
       </article>
-      <article class="card tech-card"><div class="robot-wrap"><span class="robot-emoji" aria-hidden="true">🤖</span></div></article>
+      <article class="card tech-card">
+        <div class="robot-wrap">
+          <svg class="robot-icon" aria-hidden="true" viewBox="0 0 64 64">
+            <rect x="14" y="20" width="36" height="28" rx="6" ry="6" />
+            <rect x="22" y="30" width="8" height="8" rx="4" />
+            <rect x="34" y="30" width="8" height="8" rx="4" />
+            <rect x="24" y="46" width="16" height="4" rx="2" />
+            <rect x="10" y="26" width="4" height="16" rx="2" />
+            <rect x="50" y="26" width="4" height="16" rx="2" />
+            <rect x="30" y="10" width="4" height="8" rx="2" />
+            <circle cx="32" cy="8" r="3" />
+          </svg>
+        </div>
+      </article>
     </section>
   </template>
 
@@ -112,7 +125,7 @@
           <textarea id="message" name="message" rows="5" required placeholder="أخبرني عن المشروع أو السؤال"></textarea>
         </div>
         <div class="actions">
-          <button class="btn primary" type="submit">إرسال</button>
+          <button class="btn btn-primary" type="submit">إرسال</button>
           <span id="form-status" class="muted" role="status" aria-live="polite"></span>
         </div>
       </form>
@@ -120,5 +133,6 @@
   </template>
 
   <script type="module" src="app.js"></script>
+  <div id="cursor" aria-hidden="true"></div>
 </body>
 </html>
