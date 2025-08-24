@@ -14,6 +14,25 @@ const navToggle = document.querySelector(".nav-toggle");
 const yearEl = document.getElementById("year");
 if (yearEl) yearEl.textContent = new Date().getFullYear();
 
+const cursor = document.getElementById("cursor");
+if (cursor) {
+  let rafId = 0, cx = 0, cy = 0;
+  const move = (x, y) => { cx = x; cy = y; cursor.style.transform = `translate(${cx}px, ${cy}px) translate(-50%,-50%)`; };
+  const onMouseMove = (e) => {
+    if (rafId) cancelAnimationFrame(rafId);
+    rafId = requestAnimationFrame(() => move(e.clientX, e.clientY));
+    cursor.style.opacity = 1;
+  };
+  document.addEventListener("mousemove", onMouseMove);
+  document.addEventListener("mouseleave", () => cursor.style.opacity = 0);
+  document.addEventListener("mousedown", () => cursor.classList.add("is-click"));
+  document.addEventListener("mouseup", () => cursor.classList.remove("is-click"));
+  document.addEventListener("mouseover", e => {
+    // disable hover state visuals
+    cursor.classList.remove("is-hover");
+  });
+}
+
 function setActive(route) {
   document.querySelectorAll(".nav-link").forEach(a => {
     a.classList.toggle("is-active", a.dataset.route === route);
@@ -78,3 +97,10 @@ emitter.on("render", (route) => {
     form.reset();
   }, { once: true });
 });
+
+// Attach interactive 3D tilt on cards, pause over buttons/links
+function bindCardTilt(scope = document) {
+  // disabled: no hover-based tilt effects
+}
+
+emitter.on("render", () => bindCardTilt(root));
