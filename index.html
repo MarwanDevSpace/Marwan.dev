@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>مدونة مروان | مهندس برمجة موجهات</title>
+  <meta name="description" content="مدونة مروان - Prompt Engineer | كتابة موجهات، نظم LLM، وهندسة منتجات ذكاء اصطناعي." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script type="importmap">
+  {
+    "imports": {
+      "nanoevents": "https://cdn.jsdelivr.net/npm/nanoevents@8.0.0/index.min.js"
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">تخطي إلى المحتوى</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="/" data-link aria-label="العودة إلى الرئيسية">
+        <span class="brand-mark" aria-hidden="true">◆</span>
+        <span class="brand-name">Marwan.dev</span>
+      </a>
+      <nav class="nav" role="navigation" aria-label="التنقل الرئيسي">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="فتح القائمة">☰</button>
+        <ul id="nav-list" class="nav-list">
+          <li><a data-link href="/" data-route="home" class="nav-link is-active">الرئيسية</a></li>
+          <li><a data-link href="/about" data-route="about" class="nav-link">عنّي</a></li>
+          <li><a data-link href="/contact" data-route="contact" class="nav-link">تواصل</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header-border" aria-hidden="true"></div>
+  </header>
+
+  <main id="main" class="container page" role="main" tabindex="-1">
+    <section class="page-transition" id="page-root" aria-live="polite"></section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="end-panel" aria-live="polite">
+        <div class="end-card" role="note">
+          <p class="end-copy">©Marwan | 2025</p>
+          <a class="gen-note" href="https://chat.openai.com" target="_blank" rel="noopener">
+            Generated with GPT 5
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Templates -->
+  <template id="tpl-home">
+    <section class="card hero">
+      <h1 class="hxl">مرحباً</h1>
+      <p class="lead">مهندس أوامر الذكاء الاصطناعي | Prompt Engineer</p>
+      <div class="cta-row">
+        <a class="btn primary" data-link data-route="contact" href="/contact">الصفحة الرئيسية</a>
+        <a class="btn ghost" data-link data-route="about" href="/about">عنّي</a>
+      </div>
+    </section>
+
+    <section class="grid two">
+      <article class="card">
+        <h2 class="h2">مهاراتي المتواضعة</h2>
+        <ul class="checklist">
+          <li>تنسيق أوامر مصممة لإعطاء أفضل النتائج.</li>
+          <li>فهم عميق في موديلات الذكاء الاصطناعي وعملها.</li>
+          <li>معرفة كبيرة في موديلات إنشاء الصور والفيديوهات.</li>
+          <li>اختصاص أوامر باللغة العربية تحديداً.</li>
+        </ul>
+      </article>
+      <article class="card tech-card"><div class="robot-wrap"><span class="robot-emoji" aria-hidden="true">🤖</span></div></article>
+    </section>
+  </template>
+
+  <template id="tpl-about">
+    <section class="card">
+      <h1 class="h1">عنّي</h1>
+      <p>
+        أنا مروان عبدالحافظ، مهندس أوامر ذكاء اصطناعي بخبرة متواضعة، عندي إيمان كامل بقوة بمخالطة لغتنا العربية بنماذج الذكاء الاصطناعي أقوى من باقي لغات العالم بمراحل متقدمة نظراً لقوى وبلاغة لغة القرآن وهذا سبب دخولي لهذا المجال
+      </p>
+      <div class="grid two">
+        <div>
+          <h3 class="h3">ما هدفي؟</h3>
+          <p>هدفي هو التوعية التقينة والتطوير بإستخدام اللغة العربية وحقن أوامر الذكاء الاصطناعي ببلاغة اللغة لإعطاء أقوى النتائج</p>
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <template id="tpl-contact">
+    <section class="card">
+      <h1 class="h1">تواصل</h1>
+      <form class="form" id="contact-form" novalidate>
+        <div class="field">
+          <label for="name">الاسم</label>
+          <input id="name" name="name" type="text" required placeholder="اسمك الكامل" />
+        </div>
+        <div class="field">
+          <label for="email">البريد الإلكتروني</label>
+          <input id="email" name="email" type="email" required placeholder="you@example.com" />
+        </div>
+        <div class="field">
+          <label for="message">رسالتك</label>
+          <textarea id="message" name="message" rows="5" required placeholder="أخبرني عن المشروع أو السؤال"></textarea>
+        </div>
+        <div class="actions">
+          <button class="btn primary" type="submit">إرسال</button>
+          <span id="form-status" class="muted" role="status" aria-live="polite"></span>
+        </div>
+      </form>
+    </section>
+  </template>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
