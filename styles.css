@@ -102,7 +102,62 @@ img,svg,video{max-width:100%;height:auto;display:block}
 }
 /* Icon support */
 .btn .icon{display:inline-grid;place-items:center;width:1.25em;height:1.25em}
+
+/* Boost Button */
+.btn-boost{
+  background:linear-gradient(135deg, #000000, #a0a0a0, #000000);
+  background-size: 200% 200%;
+  color:#fff;border:1px solid rgba(255,255,255,.2);
+  position:relative;overflow:hidden;transition:all 0.3s ease;
+  animation:gradientShift 3s ease-in-out infinite;
+  box-shadow:0 4px 15px rgba(0,0,0,.3);
+}
+
+.btn-boost::before{
+  content:"";position:absolute;top:0;left:-100%;width:100%;height:100%;
+  background:linear-gradient(90deg, transparent, rgba(255,255,255,.2), transparent);
+  transition:left 0.5s ease;
+}
+
+.btn-boost:hover::before{
+  left:100%;
+}
+
+.btn-boost:hover{
+  transform:translateY(-2px);box-shadow:0 8px 25px rgba(0,0,0,.4);
+  border-color:rgba(255,255,255,.4);
+}
+
+.btn-boost .btn-text{
+  position:relative;z-index:1;font-weight:600;
+}
+
+.btn-boost .arrow-icon{
+  margin-right:0.5rem;transition:transform 0.3s ease;
+  filter:drop-shadow(0 1px 2px rgba(0,0,0,.3));
+}
+
+.btn-boost:hover .arrow-icon{
+  transform:translateX(4px);
+}
+
+@keyframes gradientShift{
+  0%, 100%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+}
 .cta-row{display:flex;gap:.6rem;margin-top:1rem;flex-wrap:wrap}
+
+@media (max-width: 768px) {
+  .cta-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  
+  .btn-boost .arrow-icon {
+    margin-right: 0.25rem;
+  }
+}
 .grid.two{display:grid;grid-template-columns:1fr;gap:1rem;margin-top:1rem}
 .prompts-grid{display:grid;grid-template-columns:1fr;gap:1rem;margin-top:1rem}
 @media(min-width:800px){.grid.two{grid-template-columns:1fr 1fr}}
@@ -230,6 +285,146 @@ img,svg,video{max-width:100%;height:auto;display:block}
 
 .copy-status.error{
   color:#ef4444;font-weight:500;
+}
+
+/* Instagram Contact Card */
+.instagram-container{
+  margin-top:2rem;display:flex;justify-content:center;padding:0 1rem
+}
+
+.instagram-card{
+  background:linear-gradient(135deg, rgba(255,255,255,.08), rgba(0,0,0,.2)) var(--panel);
+  border:1px solid color-mix(in srgb, var(--border) 60%, transparent);
+  border-radius:24px;
+  box-shadow:
+    0 20px 40px rgba(0,0,0,.3),
+    0 0 0 1px rgba(255,255,255,.1),
+    inset 0 1px 0 rgba(255,255,255,.1);
+  padding:2.5rem;
+  max-width:500px;
+  width:100%;
+  transform-style:preserve-3d;
+  transition:all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position:relative;
+  overflow:hidden
+}
+
+.instagram-card::before{
+  content:"";position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg, transparent, rgba(255,255,255,.3), transparent)
+}
+
+.instagram-card:hover{
+  transform:translateY(-8px) rotateX(2deg) rotateY(2deg);
+  box-shadow:
+    0 30px 60px rgba(0,0,0,.4),
+    0 0 0 1px rgba(255,255,255,.15),
+    inset 0 1px 0 rgba(255,255,255,.2)
+}
+
+.instagram-header{
+  display:flex;align-items:center;gap:1.5rem;margin-bottom:2rem
+}
+
+.instagram-logo{
+  background:linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  border-radius:16px;padding:1rem;box-shadow:0 8px 24px rgba(220,39,67,.3)
+}
+
+.instagram-logo svg{
+  color:#fff;filter:drop-shadow(0 2px 4px rgba(0,0,0,.2))
+}
+
+.instagram-info{
+  flex:1
+}
+
+.instagram-title{
+  font-size:1.75rem;font-weight:700;margin:0 0 0.25rem 0;
+  background:linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-clip:text
+}
+
+.instagram-handle{
+  font-size:1.125rem;color:var(--muted);margin:0;font-weight:500
+}
+
+.instagram-content{
+  text-align:center
+}
+
+.status-badge{
+  display:inline-flex;align-items:center;gap:0.5rem;
+  background:linear-gradient(135deg, #10b981, #059669);
+  color:#fff;padding:0.5rem 1rem;border-radius:50px;
+  font-weight:600;font-size:0.875rem;margin-bottom:1.5rem;
+  box-shadow:0 4px 12px rgba(16,185,129,.3);
+  transform:translateZ(20px)
+}
+
+.status-indicator{
+  width:8px;height:8px;background:#fff;border-radius:50%;
+  animation:pulse 2s ease-in-out infinite
+}
+
+@keyframes pulse{
+  0%, 100%{opacity:1;transform:scale(1)}
+  50%{opacity:0.7;transform:scale(1.2)}
+}
+
+.instagram-description{
+  color:var(--text);font-size:1.125rem;line-height:1.6;
+  margin:0 0 2rem 0;opacity:0.9
+}
+
+.instagram-btn{
+  display:inline-flex;align-items:center;gap:0.75rem;
+  background:linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  color:#fff;text-decoration:none;padding:1rem 2rem;
+  border-radius:16px;font-weight:600;font-size:1rem;
+  transition:all 0.3s ease;box-shadow:0 8px 24px rgba(220,39,67,.3);
+  transform:translateZ(10px)
+}
+
+.instagram-btn:hover{
+  transform:translateY(-2px) translateZ(15px);
+  box-shadow:0 12px 32px rgba(220,39,67,.4)
+}
+
+.instagram-btn svg{
+  color:#fff;filter:drop-shadow(0 1px 2px rgba(0,0,0,.2))
+}
+
+/* Responsive Instagram Card */
+@media (max-width: 768px) {
+  .instagram-card {
+    padding: 2rem 1.5rem;
+    margin: 0 0.5rem;
+  }
+  
+  .instagram-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .instagram-title {
+    font-size: 1.5rem;
+  }
+  
+  .instagram-handle {
+    font-size: 1rem;
+  }
+  
+  .instagram-description {
+    font-size: 1rem;
+  }
+  
+  .instagram-btn {
+    padding: 0.875rem 1.5rem;
+    font-size: 0.875rem;
+  }
 }
 
 /* Loading States */
