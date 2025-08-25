@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Marwan.dev</title>
+  <title>مدونة مروان | مهندس برمجة موجهات</title>
   <meta name="description" content="مدونة مروان - Prompt Engineer | كتابة موجهات، نظم LLM، وهندسة منتجات ذكاء اصطناعي." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -64,6 +64,13 @@
       <div class="cta-row">
         <a class="btn btn-primary" data-link data-route="contact" href="/contact">تواصل</a>
         <a class="btn btn-secondary" data-link data-route="about" href="/about">عنّي</a>
+        <a class="btn btn-boost" data-link data-route="prompts" href="/prompts">
+          <span class="btn-text">عزز بالأوامر</span>
+          <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14"></path>
+            <path d="m12 5 7 7-7 7"></path>
+          </svg>
+        </a>
       </div>
     </section>
 
@@ -164,26 +171,47 @@
   </template>
 
   <template id="tpl-contact">
-    <section class="card">
-      <h1 class="h1">تواصل</h1>
-      <form class="form" id="contact-form" novalidate>
-        <div class="field">
-          <label for="name">الاسم</label>
-          <input id="name" name="name" type="text" required placeholder="اسمك الكامل" />
+    <section class="card hero">
+      <h1 class="h1">تواصل معي</h1>
+      <p class="lead">تابعني على وسائل التواصل الاجتماعي للحصول على أحدث التحديثات والنصائح</p>
+    </section>
+    
+    <section class="instagram-container">
+      <div class="instagram-card">
+        <div class="instagram-header">
+          <div class="instagram-logo">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </div>
+          <div class="instagram-info">
+            <h2 class="instagram-title">Instagram</h2>
+            <p class="instagram-handle">@mo.os</p>
+          </div>
         </div>
-        <div class="field">
-          <label for="email">البريد الإلكتروني</label>
-          <input id="email" name="email" type="email" required placeholder="you@example.com" />
+        
+        <div class="instagram-content">
+          <div class="status-badge">
+            <span class="status-text">نشط</span>
+            <div class="status-indicator"></div>
+          </div>
+          
+          <p class="instagram-description">
+            تابعني للحصول على أحدث النصائح في مجال الذكاء الاصطناعي والبرمجة
+          </p>
+          
+          <a href="https://www.instagram.com/mo.os" target="_blank" rel="noopener noreferrer" class="instagram-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15,3 21,3 21,9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+            متابعة على Instagram
+          </a>
         </div>
-        <div class="field">
-          <label for="message">رسالتك</label>
-          <textarea id="message" name="message" rows="5" required placeholder="أخبرني عن المشروع أو السؤال"></textarea>
-        </div>
-        <div class="actions">
-          <button class="btn btn-primary" type="submit">إرسال</button>
-          <span id="form-status" class="form-status" role="status" aria-live="polite"></span>
-        </div>
-      </form>
+      </div>
     </section>
   </template>
 
