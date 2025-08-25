@@ -83,19 +83,10 @@ navToggle.addEventListener("click", () => toggleMenu());
 // Initial render
 render(getRouteFromPath(), false);
 
-// Form handling
+// Contact page handling (Instagram focus)
 emitter.on("render", (route) => {
   if (route !== "contact") return;
-  const form = document.getElementById("contact-form");
-  const status = document.getElementById("form-status");
-  if (!form) return;
-  form.addEventListener("submit", async (e) => {
-    e.preventDefault();
-    status.textContent = "جارٍ الإرسال...";
-    await new Promise(r => setTimeout(r, 800));
-    status.textContent = "تم الاستلام! سأعود إليك قريباً.";
-    form.reset();
-  }, { once: true });
+  console.log("Instagram contact page rendered");
 });
 
 // Prompts system
