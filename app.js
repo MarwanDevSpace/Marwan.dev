@@ -47,7 +47,7 @@ function render(route = "home", push = false) {
     root.replaceChildren(tpl.content.cloneNode(true));
     setTimeout(() => root.classList.add("is-ready"), 20);
   });
-  if (push) history.pushState({ route }, "", route === "home" ? "/" : `/${route}`);
+  if (push) history.pushState({ route }, "", route === "home" ? "/Marwan.dev/" : `/Marwan.dev/${route}`);
   setActive(route);
   document.getElementById("main")?.focus();
   emitter.emit("render", route);
@@ -55,7 +55,9 @@ function render(route = "home", push = false) {
 
 function getRouteFromPath() {
   const path = location.pathname.replace(/^\/+/, "");
-  const key = path || "home";
+  // Handle GitHub Pages base path
+  const cleanPath = path.replace(/^Marwan\.dev\/?/, "");
+  const key = cleanPath || "home";
   return routes[key] ? key : "home";
 }
 
