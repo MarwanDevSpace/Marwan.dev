@@ -104,7 +104,151 @@ img,svg,video{max-width:100%;height:auto;display:block}
 .btn .icon{display:inline-grid;place-items:center;width:1.25em;height:1.25em}
 .cta-row{display:flex;gap:.6rem;margin-top:1rem;flex-wrap:wrap}
 .grid.two{display:grid;grid-template-columns:1fr;gap:1rem;margin-top:1rem}
+.prompts-grid{display:grid;grid-template-columns:1fr;gap:1rem;margin-top:1rem}
 @media(min-width:800px){.grid.two{grid-template-columns:1fr 1fr}}
+@media(min-width:800px){.prompts-grid{grid-template-columns:1fr 1fr}}
+
+/* Prompt Cards */
+.prompts-container{margin-top:1rem}
+.prompts-grid{display:grid;grid-template-columns:1fr;gap:1.5rem;margin-top:1rem}
+@media(min-width:800px){.prompts-grid{grid-template-columns:1fr 1fr}}
+
+.prompt-card{
+  background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(0,0,0,.08)) var(--panel);
+  border:1px solid color-mix(in srgb, var(--border) 85%, transparent);
+  border-radius:var(--radius);
+  box-shadow:
+    0 1px 0 rgba(255,255,255,.04) inset,
+    0 -1px 0 rgba(0,0,0,.35) inset,
+    0 10px 30px rgba(0,0,0,.45),
+    0 2px 8px rgba(0,0,0,.35);
+  padding:1.5rem;
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+  position:relative;
+  overflow:hidden;
+}
+
+.prompt-card::before{
+  content:""; position:absolute; inset:0; border-radius:inherit; pointer-events:none;
+  background: linear-gradient(180deg, rgba(255,255,255,.06), transparent 40%);
+  mix-blend-mode: overlay; opacity:.6; transform: translateZ(1px);
+}
+
+.prompt-card:hover{
+  border-color:color-mix(in srgb, var(--link) 30%, var(--border));
+  box-shadow:
+    0 1px 0 rgba(255,255,255,.06) inset,
+    0 -1px 0 rgba(0,0,0,.4) inset,
+    0 15px 40px rgba(0,0,0,.5),
+    0 3px 12px rgba(0,0,0,.4);
+}
+
+/* Prompt Header */
+.prompt-header{
+  display:flex;align-items:center;gap:1rem;margin-bottom:1rem;
+}
+
+.prompt-number{
+  display:grid;place-items:center;width:2.5rem;height:2.5rem;
+  background:linear-gradient(135deg, var(--link), color-mix(in srgb, var(--link) 70%, var(--panel)));
+  color:var(--text-strong);border-radius:50%;font-weight:600;font-size:0.875rem;
+  box-shadow:0 2px 8px rgba(88,166,255,0.3);
+}
+
+.prompt-header .h2{
+  margin:0;flex:1;
+}
+
+/* Prompt Description */
+.prompt-description{
+  margin-bottom:1.5rem;
+}
+
+.prompt-description p{
+  margin:0;line-height:1.6;
+}
+
+/* Prompt Content */
+.prompt-content{
+  margin-bottom:1.5rem;
+}
+
+.prompt-label{
+  display:block;color:var(--text-strong);font-weight:500;margin-bottom:0.5rem;
+}
+
+.prompt-textarea-wrapper{
+  position:relative;
+}
+
+.prompt-textarea{
+  width:100%;background:#0b1115;color:var(--text);border:1px solid var(--border);
+  border-radius:8px;padding:1rem;outline:none;font-family:inherit;font-size:0.9rem;
+  line-height:1.5;resize:none;transition:border-color var(--transition);
+}
+
+.prompt-textarea:focus{
+  border-color:var(--focus);
+}
+
+.prompt-overlay{
+  position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  background:rgba(11,17,21,0.8);opacity:0;transition:opacity var(--transition);
+  border-radius:8px;
+}
+
+.prompt-card:hover .prompt-overlay{
+  opacity:1;
+}
+
+.copy-btn-overlay{
+  background:var(--link);color:var(--text-strong);border:none;border-radius:8px;
+  padding:0.75rem;cursor:pointer;transition:all var(--transition);
+  display:flex;align-items:center;gap:0.5rem;
+}
+
+.copy-btn-overlay:hover{
+  background:color-mix(in srgb, var(--link) 80%, var(--panel));transform:scale(1.05);
+}
+
+/* Prompt Actions */
+.prompt-actions{
+  display:flex;align-items:center;gap:1rem;
+}
+
+.prompt-actions .btn{
+  display:inline-flex;align-items:center;gap:0.5rem;
+}
+
+.copy-status{
+  color:var(--muted);font-size:0.875rem;transition:color var(--transition);
+}
+
+.copy-status.success{
+  color:#10b981;font-weight:500;
+}
+
+.copy-status.error{
+  color:#ef4444;font-weight:500;
+}
+
+/* Loading States */
+.loading-state, .empty-state, .error-state{
+  display:grid;place-items:center;padding:3rem 1rem;text-align:center;
+}
+
+.loading-spinner{
+  width:2rem;height:2rem;border:2px solid var(--border);border-top-color:var(--link);
+  border-radius:50%;animation:spin 1s linear infinite;margin-bottom:1rem;
+}
+
+@keyframes spin{
+  to{transform:rotate(360deg)}
+}
+
+.empty-state p, .error-state p{
+  margin-bottom:1rem;
+}
 .kv{display:grid;gap:.4rem}
 .k{color:var(--muted);margin-inline-end:.4rem}
 .v{color:var(--text)}
@@ -157,7 +301,7 @@ input:focus,textarea:focus{border-color:var(--focus);box-shadow:var(--ring)}
 .emoji-chip:hover{transform:none;background:inherit}
 @media(min-width:800px){.emoji-chip{font-size:28px;padding:16px}}
 .robot-wrap{display:grid;place-items:center;min-height:220px}
-.robot-icon{width:clamp(96px,20vw,260px);height:auto;fill:#fff;filter:drop-shadow(0 6px 18px rgba(255,255,255,.08));animation:botFloat 4.8s ease-in-out infinite}
+.robot-icon{width:clamp(120px,25vw,300px);height:auto;filter:drop-shadow(0 8px 24px rgba(74,144,226,0.3));animation:botFloat 4.8s ease-in-out infinite}
 .robot-emoji{font-size:clamp(96px,20vw,260px);color:#fff;filter:drop-shadow(0 6px 18px rgba(255,255,255,.08));animation:botFloat 4.8s ease-in-out infinite}
 @keyframes botFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
 
@@ -192,12 +336,6 @@ input:focus,textarea:focus{border-color:var(--focus);box-shadow:var(--ring)}
   .nav-list{position:absolute;inset-inline:0;top:54px;background:rgba(13,17,23,.96);backdrop-filter:saturate(140%) blur(8px);border-bottom:1px solid var(--border);padding:10px;display:none;flex-direction:column}
   .nav-list.open{display:flex}
 }
-
-#admin-root{position:fixed;inset:0;display:grid;place-items:center;background:rgba(0,0,0,.5);backdrop-filter:blur(6px);z-index:120}
-#admin-root[hidden]{display:none}
-.admin-modal{width:min(720px,94%)}
-.admin-actions{display:flex;gap:.6rem;justify-content:flex-end;margin-top:.8rem}
-
 #cursor{position:fixed;top:0;left:0;width:10px;height:10px;border-radius:50%;background:#fff;box-shadow:0 0 0 2px rgba(255,255,255,.18);transform:translate(-50%,-50%);pointer-events:none;z-index:9999;transition:opacity .2s, transform .06s ease-out}
 #cursor.is-hover{transform:translate(-50%,-50%) scale(1.8);opacity:.95}
 #cursor.is-click{transform:translate(-50%,-50%) scale(.85)}
