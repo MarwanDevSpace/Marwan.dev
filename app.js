@@ -12,13 +12,14 @@ const root = document.getElementById("page-root");
 const nav = document.querySelector(".nav");
 const navList = document.getElementById("nav-list");
 const navToggle = document.querySelector(".nav-toggle");
-const yearEl = document.getElementById("year");
-if (yearEl) yearEl.textContent = new Date().getFullYear();
 
 const cursor = document.getElementById("cursor");
 if (cursor) {
   let rafId = 0, cx = 0, cy = 0;
-  const move = (x, y) => { cx = x; cy = y; cursor.style.transform = `translate(${cx}px, ${cy}px) translate(-50%,-50%)`; };
+  const move = (x, y) => { 
+    cx = x; cy = y; 
+    cursor.style.transform = `translate(${cx}px, ${cy}px) translate(-50%,-50%)`; 
+  };
   const onMouseMove = (e) => {
     if (rafId) cancelAnimationFrame(rafId);
     rafId = requestAnimationFrame(() => move(e.clientX, e.clientY));
@@ -29,14 +30,9 @@ if (cursor) {
   document.addEventListener("mousedown", () => cursor.classList.add("is-click"));
   document.addEventListener("mouseup", () => cursor.classList.remove("is-click"));
   document.addEventListener("mouseover", e => {
-    // disable hover state visuals
     cursor.classList.remove("is-hover");
   });
 }
-
-const LS_KEY = "posts_v1";
-let posts = JSON.parse(localStorage.getItem(LS_KEY) || "[]");
-function savePosts(){ localStorage.setItem(LS_KEY, JSON.stringify(posts)); }
 
 function setActive(route) {
   document.querySelectorAll(".nav-link").forEach(a => {
@@ -53,7 +49,6 @@ function render(route = "home", push = false) {
   });
   if (push) history.pushState({ route }, "", route === "home" ? "/" : `/${route}`);
   setActive(route);
-  // focus main for a11y
   document.getElementById("main")?.focus();
   emitter.emit("render", route);
 }
@@ -62,26 +57,6 @@ function getRouteFromPath() {
   const path = location.pathname.replace(/^\/+/, "");
   const key = path || "home";
   return routes[key] ? key : "home";
-}
-
-function renderPosts(){
-  const wrap = root.querySelector("#page-root .card") || root.querySelector(".card");
-  const host = root.querySelector(".card") || wrap;
-  if(!host) return;
-  const empty = host.querySelector(".muted");
-  if(posts.length===0){ if(!empty){ const p=document.createElement("p");p.className="muted";p.textContent="لا توجد منشورات بعد.";host.append(p);} return; }
-  if(empty) empty.remove();
-  const list = document.createElement("div"); list.className="list";
-  posts.slice().reverse().forEach(p=>{
-    const a = document.createElement("article");
-    a.className = "list-item";
-    a.innerHTML = `
-      ${p.image ? `<img alt="" src="${p.image}" style="border-radius:8px;max-height:260px;object-fit:cover">` : ""}
-      <h3 class="h3">${p.title}</h3>
-      <p>${p.body}</p>`;
-    list.appendChild(a);
-  });
-  host.appendChild(list);
 }
 
 // Intercept nav links
@@ -108,7 +83,7 @@ navToggle.addEventListener("click", () => toggleMenu());
 // Initial render
 render(getRouteFromPath(), false);
 
-// Form handling (dummy async UX)
+// Form handling
 emitter.on("render", (route) => {
   if (route !== "contact") return;
   const form = document.getElementById("contact-form");
@@ -123,53 +98,167 @@ emitter.on("render", (route) => {
   }, { once: true });
 });
 
-// Attach interactive 3D tilt on cards, pause over buttons/links
-function bindCardTilt(scope = document) {
-  // disabled: no hover-based tilt effects
+// Prompts system
+const PROMPTS_DATA = [
+  {
+    id: "1",
+    title: "محرر محتوى عربي محترف",
+    description: "أمر لإنشاء محتوى عربي عالي الجودة مع الحفاظ على الأسلوب الأدبي والبلاغة العربية",
+    prompt: "أنت محرر محتوى عربي محترف بخبرة 15 عاماً في الكتابة الإبداعية والصحفية. مهمتك هي كتابة [نوع المحتوى] عن [الموضوع] بطريقة تجمع بين:\n\n- الأسلوب الأدبي الراقي والبلاغة العربية\n- الوضوح والبساطة في التعبير\n- الدقة في المعلومات والمراجع\n- جذب انتباه القارئ العربي\n\nاكتب المحتوى باللغة العربية الفصحى المعاصرة مع الحفاظ على روح اللغة العربية وجماليتها."
+  },
+  {
+    id: "2",
+    title: "مطور ذكاء اصطناعي متخصص",
+    description: "أمر لإنشاء تطبيقات ذكاء اصطناعي متقدمة مع التركيز على اللغة العربية",
+    prompt: "أنت مطور ذكاء اصطناعي متخصص بخبرة 10 سنوات في تطوير نماذج اللغات الطبيعية. مهمتك هي تصميم نظام ذكاء اصطناعي يتعامل مع اللغة العربية بكفاءة عالية.\n\nالمتطلبات:\n- دعم كامل للغة العربية (كتابة، قراءة، فهم)\n- معالجة النصوص العربية بجميع لهجاتها\n- دقة عالية في الترجمة العربية\n- واجهة مستخدم باللغة العربية\n\nقدم خطة تطوير مفصلة مع التقنيات المطلوبة والخطوات العملية."
+  },
+  {
+    id: "3",
+    title: "مصمم جرافيك عربي",
+    description: "أمر لإنشاء تصميمات جرافيكية تناسب الثقافة العربية والذوق المحلي",
+    prompt: "أنت مصمم جرافيك عربي محترف متخصص في التصميم الثقافي. مهمتك هي إنشاء تصميم لـ [نوع التصميم] يعكس:\n\n- الهوية الثقافية العربية\n- القيم الإسلامية والأخلاقية\n- الألوان والرموز العربية التقليدية\n- الحداثة والمعاصرة\n\nالتصميم يجب أن يكون:\n- مناسباً للجمهور العربي\n- محترماً للثقافة المحلية\n- جذاباً بصرياً\n- سهل الفهم والتطبيق"
+  },
+  {
+    id: "4",
+    title: "مدرب لغة عربية",
+    description: "أمر لتعليم اللغة العربية بطريقة تفاعلية وممتعة للمبتدئين",
+    prompt: "أنت مدرب لغة عربية محترف مع خبرة 20 عاماً في تعليم العربية للناطقين بغيرها. مهمتك هي إنشاء درس تفاعلي لتعليم [المهارة اللغوية].\n\nالدرس يجب أن يتضمن:\n- مقدمة ممتعة وجذابة\n- أمثلة عملية من الحياة اليومية\n- تمارين تفاعلية\n- نصائح للتعلم الذاتي\n- اختبار قصير للتقييم\n\nاستخدم أسلوباً ودوداً ومشجعاً مع التركيز على التطبيق العملي."
+  },
+  {
+    id: "5",
+    title: "كاتب سيناريو عربي",
+    description: "أمر لكتابة سيناريو عربي أصيل يحترم الثقافة العربية والقيم المحلية",
+    prompt: "أنت كاتب سيناريو عربي محترف مع خبرة في كتابة المسلسلات والأفلام العربية. مهمتك هي كتابة سيناريو لـ [نوع العمل] يتناول [الموضوع].\n\nالسيناريو يجب أن:\n- يحترم الثقافة والقيم العربية\n- يعكس الواقع الاجتماعي العربي\n- يحتوي على حوار طبيعي ومقنع\n- يقدم رسالة إيجابية\n- يناسب الجمهور العربي\n\nاكتب المشهد الأول مع وصف الشخصيات والإعداد."
+  },
+  {
+    id: "6",
+    title: "تحسين سيرة ذاتية لمطوّر ويب",
+    description: "صيغة برومبت تساعد الذكاء الاصطناعي على إعادة كتابة سيرة ذاتية بتركيز على النتائج والأثر.",
+    prompt: "أعد كتابة السيرة الذاتية التالية بصيغة نقاط مركّزة على النتائج (metrics) والأثر التجاري.\n- احذف الحشو.\n- استخدم أفعال قوية في بداية كل نقطة.\n- اذكر الأرقام الملموسة إن توفّرت.\n\nالسيرة:\n---\n[ألصق السيرة هنا]\n---"
+  }
+];
+
+// Render prompts page
+emitter.on("render", (route) => {
+  if (route !== "prompts") return;
+  
+  console.log("Rendering prompts page...");
+  
+  // Wait a bit for DOM to be ready
+  setTimeout(() => {
+    renderPrompts();
+  }, 100);
+});
+
+function renderPrompts() {
+  const list = document.getElementById("prompts-list");
+  if (!list) {
+    console.error("Prompts list element not found!");
+    return;
+  }
+  
+  console.log(`Rendering ${PROMPTS_DATA.length} prompts...`);
+  
+  // Clear the list
+  list.innerHTML = "";
+  
+  // Render each prompt
+  PROMPTS_DATA.forEach((prompt, index) => {
+    const card = createPromptCard(prompt, index);
+    list.appendChild(card);
+  });
+  
+  // Add event listeners
+  addPromptEventListeners();
+  
+  console.log("Prompts rendered successfully!");
 }
 
-emitter.on("render", () => bindCardTilt(root));
-
-function showAdmin(){
-  const shell = document.getElementById("admin-root");
-  shell.innerHTML = `
-    <section class="card admin-modal" role="dialog" aria-modal="true">
-      <h2 class="h2">نشر منشور جديد</h2>
-      <form class="form" id="admin-form">
-        <div class="field">
-          <label>العنوان</label>
-          <input required name="title" placeholder="عنوان المنشور">
+function createPromptCard(prompt, index) {
+  const card = document.createElement("article");
+  card.className = "prompt-card";
+  card.innerHTML = `
+    <div class="prompt-header">
+      <div class="prompt-number">${String(index + 1).padStart(2, '0')}</div>
+      <h2 class="h2">${prompt.title}</h2>
+    </div>
+    
+    <div class="prompt-description">
+      <p class="muted">${prompt.description}</p>
+    </div>
+    
+    <div class="prompt-content">
+      <label class="prompt-label">الأمر:</label>
+      <div class="prompt-textarea-wrapper">
+        <textarea class="prompt-textarea" readonly rows="6">${prompt.prompt}</textarea>
+        <div class="prompt-overlay">
+          <button class="copy-btn-overlay" type="button" aria-label="نسخ الأمر">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2v1"></path>
+            </svg>
+          </button>
         </div>
-        <div class="field">
-          <label>رابط الصورة (اختياري)</label>
-          <input name="image" type="url" placeholder="https://example.com/image.jpg">
-        </div>
-        <div class="field">
-          <label>المحتوى</label>
-          <textarea required name="body" rows="6" placeholder="نص المنشور"></textarea>
-        </div>
-        <div class="admin-actions">
-          <button type="button" class="btn btn-secondary" id="admin-cancel">إغلاق</button>
-          <button type="submit" class="btn btn-primary">نشر</button>
-        </div>
-      </form>
-    </section>`;
-  shell.hidden = false; shell.setAttribute("aria-hidden","false");
-  shell.addEventListener("click",(e)=>{ if(e.target===shell){ shell.hidden=true; shell.setAttribute("aria-hidden","true"); }},{once:true});
-  document.getElementById("admin-cancel").addEventListener("click",()=>{ shell.hidden=true; shell.setAttribute("aria-hidden","true"); });
-  document.getElementById("admin-form").addEventListener("submit",(e)=>{
-    e.preventDefault();
-    const fd = new FormData(e.target);
-    posts.push({ id: Date.now(), title: fd.get("title").toString().trim(), body: fd.get("body").toString().trim(), image: (fd.get("image")||"").toString().trim() });
-    savePosts();
-    shell.hidden = true; shell.setAttribute("aria-hidden","true");
-    if(getRouteFromPath()==="prompts") { render("prompts", false); }
-  }, { once:false });
+      </div>
+    </div>
+    
+    <div class="prompt-actions">
+      <button class="btn btn-primary copy-btn" type="button">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+          <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2v1"></path>
+        </svg>
+        نسخ الأمر
+      </button>
+      <span class="copy-status" role="status" aria-live="polite"></span>
+    </div>
+  `;
+  
+  return card;
 }
 
-function openGate(){
-  const pass = prompt("ادخل الرقم السري");
-  if(pass==="M.dev"){ showAdmin(); } else { alert("رقم سري غير صحيح"); }
+function addPromptEventListeners() {
+  console.log("Adding prompt event listeners...");
+  
+  // Handle main copy buttons
+  document.querySelectorAll(".copy-btn").forEach(btn => {
+    btn.addEventListener("click", handleCopy);
+  });
+  
+  // Handle overlay copy buttons
+  document.querySelectorAll(".copy-btn-overlay").forEach(btn => {
+    btn.addEventListener("click", handleCopy);
+  });
+  
+  console.log("Event listeners added successfully!");
 }
-window.M = {};
-Object.defineProperty(window.M, "dev", { set(v){ if(v===true) openGate(); } });
+
+async function handleCopy(e) {
+  const card = e.currentTarget.closest(".prompt-card");
+  const textarea = card.querySelector(".prompt-textarea");
+  const status = card.querySelector(".copy-status");
+  
+  try {
+    await navigator.clipboard.writeText(textarea.value);
+    status.textContent = "تم النسخ! ✓";
+    status.className = "copy-status success";
+    
+    setTimeout(() => {
+      status.textContent = "";
+      status.className = "copy-status";
+    }, 2000);
+    
+    console.log("Prompt copied successfully!");
+  } catch (error) {
+    console.error("Failed to copy prompt:", error);
+    status.textContent = "فشل النسخ";
+    status.className = "copy-status error";
+    
+    setTimeout(() => {
+      status.textContent = "";
+      status.className = "copy-status";
+    }, 2000);
+  }
+}
+
+
