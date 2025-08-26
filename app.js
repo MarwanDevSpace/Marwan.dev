@@ -251,5 +251,3 @@ async function handleCopy(e) {
     }, 2000);
   }
 }
-
-
