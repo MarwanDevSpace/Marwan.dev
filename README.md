@@ -62,7 +62,6 @@ This repository is for educational and professional showcase purposes. All right
 |----------|------|
 | Website  | [Marwan.dev](https://marwandevspace.github.io/Marwan.dev/) |
 | Instagram | [@mo.os](https://www.instagram.com/mo.os) |
-| Prompts | [Custom Prompt Collection](https://marwandevspace.github.io/Marwan.dev/prompts) |
 
 ---
 
