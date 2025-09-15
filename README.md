@@ -5,7 +5,7 @@
 ---
 
 <details>
-<summary>🇬🇧 English</summary>
+<summary>English</summary>
 
 ## 🔹 About Me
 
@@ -56,7 +56,7 @@ This repository is for educational and professional showcase purposes. All right
 </details>
 
 <details>
-<summary>🇸🇦 العربية</summary>
+<summary>العربية</summary>
 
 ## 🔹 من أنا
 
