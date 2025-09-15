@@ -1,11 +1,11 @@
 # 🚀 Marwan.dev
 
+<details>
+<summary>English</summary>
+
 **Welcome to Marwan.dev** – A hub for advanced AI prompt engineering with a special focus on the richness and eloquence of the Arabic language.
 
 ---
-
-<details>
-<summary>English</summary>
 
 ## 🔹 About Me
 
@@ -34,18 +34,18 @@ I design prompts and frameworks that maximize AI performance across text, image,
 
 ---
 
-## 🔗 Connect With Me
-
-[![Instagram](https://img.shields.io/badge/Instagram-@mo.os-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mo.os)  
-[![Website](https://img.shields.io/badge/Website-Marwan.dev-4CAF50?style=for-the-badge&logo=Google-Chrome&logoColor=white)](https://marwandevspace.github.io/Marwan.dev/)
-
----
-
 ## 💡 Featured Work
 
 - **Optimized AI Prompts:** Tested and refined for maximum performance  
 - **Custom AI Tools:** Scripts and frameworks to enhance AI outputs  
 - **Educational Resources:** Guides on crafting effective AI prompts in Arabic  
+
+---
+
+## 🔗 Connect With Me
+
+[![Instagram](https://img.shields.io/badge/Instagram-@mo.os-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mo.os)  
+[![Website](https://img.shields.io/badge/Website-Marwan.dev-4CAF50?style=for-the-badge&logo=Google-Chrome&logoColor=white)](https://marwandevspace.github.io/Marwan.dev/)
 
 ---
 
@@ -57,6 +57,10 @@ This repository is for educational and professional showcase purposes. All right
 
 <details>
 <summary>العربية</summary>
+
+**مرحباً بكم في Marwan.dev** – مساحة مخصصة لهندسة موجهات الذكاء الاصطناعي المتقدمة مع التركيز على عمق وفصاحة اللغة العربية.
+
+---
 
 ## 🔹 من أنا
 
@@ -85,18 +89,18 @@ This repository is for educational and professional showcase purposes. All right
 
 ---
 
-## 🔗 تواصل معي
-
-[![إنستغرام](https://img.shields.io/badge/Instagram-@mo.os-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mo.os)  
-[![الموقع](https://img.shields.io/badge/Website-Marwan.dev-4CAF50?style=for-the-badge&logo=Google-Chrome&logoColor=white)](https://marwandevspace.github.io/Marwan.dev/)
-
----
-
 ## 💡 أعمالي المميزة
 
 - **موجهات محسنة للذكاء الاصطناعي:** تم اختبارها وضبطها لأفضل أداء  
 - **أدوات مخصصة للذكاء الاصطناعي:** سكريبتات وأطر لتعزيز المخرجات  
 - **موارد تعليمية:** إرشادات حول تصميم الموجهات باللغة العربية  
+
+---
+
+## 🔗 تواصل معي
+
+[![إنستغرام](https://img.shields.io/badge/Instagram-@mo.os-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mo.os)  
+[![الموقع](https://img.shields.io/badge/Website-Marwan.dev-4CAF50?style=for-the-badge&logo=Google-Chrome&logoColor=white)](https://marwandevspace.github.io/Marwan.dev/)
 
 ---
 
