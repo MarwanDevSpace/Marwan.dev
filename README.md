@@ -6,7 +6,7 @@
 
 ## 🔹 About Me
 
-Hi, I'm **Marwan Abdelhafez**, an AI Prompt Engineer passionate about leveraging the eloquence of Arabic to create highly effective AI interactions.
+Hi, I'm **Marwan Abdalhafedth**, an AI Prompt Engineer passionate about leveraging the eloquence of Arabic to create highly effective AI interactions.
 
 - 🌐 Location: Iraq  
 - 🧠 Focus: AI Prompt Engineering & Language Modeling  
