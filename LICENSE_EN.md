@@ -55,6 +55,16 @@ Full legal text: [https://creativecommons.org/licenses/by-nc/4.0/](https://creat
 
 If you use content (not code) from this project, please include attribution like this:
 
+### Alternative formats:
+- On a website/blog:  
+  *"Prompt Example for X" by [MarwanDevSpace](https://github.com/MarwanDevSpace/Marwan.dev), licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).*
+
+- In a presentation or slide:  
+  *Source: "Prompt Example for X" — MarwanDevSpace (CC BY-NC 4.0).*
+
+- In academic work:  
+  *MarwanDevSpace. "Prompt Example for X". GitHub Repository: https://github.com/MarwanDevSpace/Marwan.dev. Licensed under CC BY-NC 4.0.*
+
 ---
 
 ## 📌 Summary
