@@ -338,51 +338,6 @@ mindmap
 **Freelance AI Engineer | مهندس ذكاء اصطناعي مستقل**
 
 ---
-
-### 🤝 Professional Services | الخدمات المهنية
-
-<table>
-<tr>
-<td width="50%">
-
-**Available for Hire:**
-
-* 🤖 **AI Prompt Engineering**: Custom solutions for Arabic and multilingual AI models
-* 🔬 **Research & Development**: Advanced AI research projects and prototyping
-* 🎓 **Training & Workshops**: Professional AI training programs in Arabic
-* 📝 **Technical Writing**: AI documentation and educational content creation
-* 🌐 **Consulting Services**: AI strategy and implementation guidance
-
-</td>
-<td width="50%">
-
-**متاح للتوظيف:**
-
-* 🤖 **هندسة موجهات الذكاء الاصطناعي**: حلول مخصصة للنماذج العربية ومتعددة اللغات
-* 🔬 **البحث والتطوير**: مشاريع بحثية متقدمة وإنشاء نماذج أولية
-* 🎓 **التدريب وورش العمل**: برامج تدريبية مهنية باللغة العربية
-* 📝 **الكتابة التقنية**: توثيق الذكاء الاصطناعي وإنشاء المحتوى التعليمي
-* 🌐 **الخدمات الاستشارية**: إرشادات استراتيجية وتنفيذ الذكاء الاصطناعي
-
-</td>
-</tr>
-</table>
-
----
-
-### 📋 Work Terms | شروط العمل
-
-**🔸 Availability:** Open for freelance projects, consultations, and long-term collaborations
-**🔸 التوفر:** متاح للمشاريع المستقلة والاستشارات والتعاون طويل المدى
-
-**🔸 Specialization:** Arabic AI, Prompt Engineering, Multilingual AI Models, Research & Development
-**🔸 التخصص:** الذكاء الاصطناعي العربي، هندسة الموجهات، النماذج متعددة اللغات، البحث والتطوير
-
-**🔸 Languages:** Arabic, English
-**🔸 اللغات:** العربية، الإنجليزية
-
----
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg?style=for-the-badge)](LICENSE_EN.md)
 -----------------------------------------------------------------------------------------------------------------------------------
