@@ -313,7 +313,7 @@ mindmap
 
 ---
 
-[![License: Custom](https://img.shields.io/badge/License-Freelance_Available-brightgreen.svg?style=for-the-badge)]
+![License: Custom](https://img.shields.io/badge/License-Freelance_Available-brightgreen.svg?style=for-the-badge)
 
 ---
 
