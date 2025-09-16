@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EFF&center=true&vCenter=true&width=600&lines=AI+Prompt+Engineer+%7C+مهندس+موجهات+الذكاء+الاصطناعي;Specialized+in+Arabic+Language+AI;Building+the+Future+of+Multilingual+AI)](https://git.io/typing-svg)
+[![Typing SVG]([https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EFF&center=true&vCenter=true&width=600&lines=AI+Prompt+Engineer+%7C+مهندس+موجهات+الذكاء+الاصطناعي;Specialized+in+Arabic+Language+AI;Building+the+Future+of+Multilingual+AI](https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png))](https://git.io/typing-svg)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=marwandevspace&color=blueviolet&style=flat-square&label=Profile+Views)
 [![GitHub followers](https://img.shields.io/github/followers/marwandevspace?label=Followers&style=social)](https://github.com/marwandevspace)
