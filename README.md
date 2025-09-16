@@ -334,6 +334,8 @@ mindmap
 
 **Freelance AI Engineer | مهندس ذكاء اصطناعي مستقل**
 ---
+<div align="center">
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg?style=for-the-badge)](LICENSE_EN.md)
 -----------------------------------------------------------------------------------------------------------------------------------
