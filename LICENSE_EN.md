@@ -57,13 +57,13 @@ If you use content (not code) from this project, please include attribution like
 
 ### Alternative formats:
 - On a website/blog:  
-  *"Prompt Example for X" by [MarwanDevSpace](https://github.com/MarwanDevSpace/Marwan.dev), licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).*
+  *"Content from Marwan.dev Project" by [MarwanDevSpace](https://github.com/MarwanDevSpace/Marwan.dev), licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).*
 
 - In a presentation or slide:  
-  *Source: "Prompt Example for X" — MarwanDevSpace (CC BY-NC 4.0).*
+  *Source: "Marwan.dev Project Content" — MarwanDevSpace (CC BY-NC 4.0).*
 
 - In academic work:  
-  *MarwanDevSpace. "Prompt Example for X". GitHub Repository: https://github.com/MarwanDevSpace/Marwan.dev. Licensed under CC BY-NC 4.0.*
+  *MarwanDevSpace. "Marwan.dev Project Content". GitHub Repository: https://github.com/MarwanDevSpace/Marwan.dev. Licensed under CC BY-NC 4.0.*
 
 ---
 
