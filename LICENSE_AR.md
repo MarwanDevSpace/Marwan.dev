@@ -48,6 +48,12 @@
 النص الكامل للرخصة:  
 [https://creativecommons.org/licenses/by-nc/4.0/deed.ar](https://creativecommons.org/licenses/by-nc/4.0/deed.ar)
 
+---
+
+## مثال على النَسب (Attribution Example)
+
+في حال استخدام أي محتوى (غير برمجي) من هذا المشروع، يُرجى تضمين النَسب بالشكل التالي:
+
 ### صيغ بديلة:
 - على موقع ويب / مدونة:  
   *"مثال لموجه X" بواسطة [MarwanDevSpace](https://github.com/MarwanDevSpace/Marwan.dev)، مرخّص تحت [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ar).*
@@ -58,8 +64,3 @@
 - في عمل أكاديمي:  
   *MarwanDevSpace. "مثال لموجه X". مستودع GitHub: https://github.com/MarwanDevSpace/Marwan.dev. مرخّص تحت CC BY-NC 4.0.*
 
----
-
-## مثال على النَسب (Attribution Example)
-
-في حال استخدام أي محتوى (غير برمجي) من هذا المشروع، يُرجى تضمين النَسب بالشكل التالي:
