@@ -283,7 +283,7 @@ mindmap
 
 [![Email](https://img.shields.io/badge/%20Email-marwan.a.discord@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:marwan.a.discord@gmail.com)
 
-[![Portfolio](https://img.shields.io/badge/%20Portfolio-marwan.dev-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://marwandevspace.github.io/Marwan.dev/)
+[![Portfolio](https://img.shields.io/badge/%20Website-marwan.dev-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://marwandevspace.github.io/Marwan.dev/)
 
 </div>
 
