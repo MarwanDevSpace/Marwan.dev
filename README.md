@@ -276,7 +276,7 @@ mindmap
 <tr>
 <td width="50%" align="center">
 
-### 📬 Professional Contact | التواصل المهني
+### 📬 Professional | مهني
 
 <div align="center">
 
@@ -289,7 +289,7 @@ mindmap
 </td>
 <td width="50%" align="center">
 
-### 🌟 Social | التواصل
+### 🌟 General | عام
 
 <div align="center">
 
