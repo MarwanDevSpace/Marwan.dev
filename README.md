@@ -333,7 +333,6 @@ mindmap
 <div align="center">
 
 **Freelance AI Engineer | مهندس ذكاء اصطناعي مستقل**
----
 <div align="center">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
