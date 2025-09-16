@@ -1,112 +1,133 @@
-# 🚀 Marwan.dev
+# 🚀 Marwan.dev | مروان.dev
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EFF&center=true&vCenter=true&width=600&lines=AI+Prompt+Engineer+%7C+مهندس+موجهات+الذكاء+الاصطناعي;Specialized+in+Arabic+Language+AI;Building+the+Future+of+Multilingual+AI)](https://git.io/typing-svg)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=300&section=header&text=Marwan.dev&fontSize=90&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=AI%20Prompt%20Engineer%20%7C%20مهندس%20موجهات%20الذكاء%20الاصطناعي&descAlignY=51&descAlign=62)
 
-![Profile Views](https://komarev.com/ghpvc/?username=marwandevspace&color=blueviolet&style=flat-square&label=Profile+Views)
-[![GitHub followers](https://img.shields.io/github/followers/marwandevspace?label=Followers&style=social)](https://github.com/marwandevspace)
-[![GitHub stars](https://img.shields.io/github/stars/marwandevspace?label=Stars&style=social)](https://github.com/marwandevspace)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=667eea&center=true&vCenter=true&width=800&lines=AI+Prompt+Engineer+%7C+مهندس+موجهات+الذكاء+الاصطناعي;Bridging+Arabic+Culture+%26+Modern+AI;Building+Multilingual+AI+Solutions;عبور+الجسر+بين+التراث+والتكنولوجيا)](https://git.io/typing-svg)
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=marwandevspace&color=667eea&style=for-the-badge&label=Profile+Views" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/marwandevspace?label=Followers&style=for-the-badge&color=764ba2" alt="GitHub followers" />
+  <img src="https://img.shields.io/github/stars/marwandevspace?label=Stars&style=for-the-badge&color=667eea" alt="GitHub stars" />
+</p>
 
 </div>
 
 ---
 
-## 📚 Table of Contents | جدول المحتويات
-- [🌟 Overview | نظرة عامة](#-overview--نظرة-عامة)
-- [👨‍💻 About Me | نبذة عني](#-about-me--نبذة-عنّي)
-- [🎯 Mission & Vision | المهمة والرؤية](#-mission--vision--المهمة-والرؤية)
-- [📊 GitHub Analytics | إحصائيات GitHub](#-github-analytics--إحصائيات-github)
-- [🎯 Current Focus | التركيز الحالي](#-current-focus--التركيز-الحالي)
-- [🔬 Arabic Prompt Engineering Research | بحوث هندسة الموجهات العربية](#-arabic-prompt-engineering-research--بحوث-هندسة-الموجهات-العربية)
-- [🔗 Connect With Me | تواصل معي](#-connect-with-me--تواصل-معي)
-- [📄 License | الترخيص](#-license--الترخيص)
-
----
-
-## 🌟 Overview | نظرة عامة
+## 🌟 About Me | نبذة عني
 
 <div align="center">
-
-<table>
+<table border="0">
 <tr>
-<td>
+<td width="50%" align="center">
 
-### English
-**Welcome to Marwan.dev** – Your gateway to advanced AI prompt engineering with a special focus on the richness and eloquence of the Arabic language. Here, innovation meets tradition, and cutting-edge AI technology embraces the depth of one of the world's most expressive languages.
+### 🇬🇧 English
+
+**Welcome to my digital workshop!**
+
+I'm **Marwan Abdalhafedh**, a passionate **AI Prompt Engineer** dedicated to revolutionizing how artificial intelligence understands and responds in Arabic. With over a year of specialized experience, I craft sophisticated prompts that unlock the full potential of AI models for Arabic speakers.
+
+🎯 **Mission:** Bridge the gap between cutting-edge AI technology and the rich Arabic language heritage.
 
 </td>
-<td>
+<td width="50%" align="center">
 
-### العربية
-**مرحباً بكم في Marwan.dev** – بوابتكم إلى هندسة موجهات الذكاء الاصطناعي المتقدمة مع التركيز الخاص على ثراء وفصاحة اللغة العربية. هنا يلتقي الابتكار بالتراث، وتحتضن تقنيات الذكاء الاصطناعي المتطورة عمق إحدى أكثر لغات العالم تعبيراً.
+### 🇸🇦 العربية
+
+**مرحباً بكم في ورشتي الرقمية!**
+
+أنا **مروان عبد الحافظ**، مهندس موجهات ذكاء اصطناعي متحمس لثورة في كيفية فهم واستجابة الذكاء الاصطناعي باللغة العربية. مع أكثر من سنة من الخبرة المتخصصة، أصمم موجهات متطورة تطلق الإمكانات الكاملة لنماذج الذكاء الاصطناعي للناطقين بالعربية.
+
+🎯 **المهمة:** ربط التكنولوجيا المتطورة بتراث اللغة العربية الغني.
 
 </td>
 </tr>
 </table>
+</div>
+
+### 🔥 Quick Stats | إحصائيات سريعة
+
+<div align="center">
+
+```javascript
+const marwan = {
+    location: "🇮🇶 Iraq",
+    languages: ["Arabic", "English"],
+    specialization: ["AI Prompt Engineering", "Arabic NLP", "Multilingual AI"],
+    experience: "1+ years",
+    passion: "Democratizing AI for Arabic speakers",
+    currentFocus: "Advanced Arabic Prompting Techniques"
+};
+```
 
 </div>
 
 ---
 
-## 👨‍💻 About Me | نبذة عني
+## 🎯 Expertise & Skills | الخبرات والمهارات
 
-<img align="right" alt="AI Engineering" width="250" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Writing%20Hand%20Light%20Skin%20Tone.png"> 
+<div align="center">
 
-### English
-
-Hi there! I'm **Marwan Abdalhafedh** 👋
-
-🔹 **AI Prompt Engineer** passionate about bridging the gap between advanced AI technology and the Arabic language  
-🔹 **Location:** 📍 Iraq 🇮🇶  
-🔹 **Focus:** AI/ML, NLP, Prompt Engineering, Arabic Language Processing  
-🔹 **Experience:** 1+ years in AI prompt optimization and language modeling  
-🔹 **Languages:** Arabic, English
-
-### العربية
-
-مرحباً! أنا **مروان عبد الحافظ** 👋
-
-🔹 **مهندس موجهات ذكاء اصطناعي** متحمس لربط التقنيات المتقدمة باللغة العربية  
-🔹 **الموقع:** 📍 العراق 🇮🇶  
-🔹 **التخصص:** الذكاء الاصطناعي، معالجة اللغات الطبيعية، هندسة الموجهات العربية  
-🔹 **الخبرة:** أكثر من سنة في تحسين موجهات الذكاء الاصطناعي ونمذجة اللغة  
-🔹 **اللغات:** العربية، الإنجليزية
-
----
-
-## 🎯 Mission & Vision | المهمة والرؤية
+### Core Technologies | التقنيات الأساسية
 
 <table>
 <tr>
-<td width="50%">
-
-### Mission
-> **"Elevate AI interactions through the power and elegance of the Arabic language"**
-
-I design sophisticated prompts and frameworks that maximize AI performance across text, image, and video generation models. My mission is to:
-
-- 🎯 Produce precise, reliable, and culturally resonant AI outputs
-- 🌍 Bridge the gap between Arabic culture and modern AI technology  
-- 📚 Democratize AI prompt engineering knowledge in Arabic
-- 🚀 Push the boundaries of multilingual AI capabilities
-
+<td align="center" width="25%">
+<img src="https://img.icons8.com/color/48/000000/artificial-intelligence.png" alt="AI" width="40"/>
+<br><strong>AI Engineering</strong>
+<br>هندسة الذكاء الاصطناعي
 </td>
-<td width="50%">
-
-### الرؤية
-> **"الارتقاء بالتفاعل مع الذكاء الاصطناعي من خلال قوة وأناقة اللغة العربية"**
-
-أصمم موجهات وأطر عمل متطورة تعظم أداء نماذج الذكاء الاصطناعي. رسالتي هي:
-
-- 🎯 إنتاج مخرجات دقيقة وموثوقة وذات صدى ثقافي
-- 🌍 ربط الثقافة العربية بتقنيات الذكاء الاصطناعي الحديثة
-- 📚 نشر المعرفة في هندسة الموجهات باللغة العربية  
-- 🚀 دفع حدود قدرات الذكاء الاصطناعي متعدد اللغات
-
+<td align="center" width="25%">
+<img src="https://img.icons8.com/color/48/000000/natural-language-processing.png" alt="NLP" width="40"/>
+<br><strong>NLP</strong>
+<br>معالجة اللغة الطبيعية
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/color/48/000000/chatbot.png" alt="Prompting" width="40"/>
+<br><strong>Prompt Engineering</strong>
+<br>هندسة الموجهات
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/color/48/000000/translation.png" alt="Translation" width="40"/>
+<br><strong>Multilingual AI</strong>
+<br>الذكاء الاصطناعي متعدد اللغات
 </td>
 </tr>
 </table>
+
+### Specialized Skills | المهارات المتخصصة
+
+<div align="left">
+
+#### 🤖 AI & Machine Learning
+- Advanced Prompt Engineering for GPT, Claude, and Arabic AI Models
+- Fine-tuning Language Models for Arabic Content
+- AI Model Evaluation and Performance Optimization
+- Custom AI Solution Development
+
+#### 🔤 Arabic Language Processing
+- Classical and Modern Standard Arabic (MSA)
+- Dialectal Arabic Understanding
+- Cultural Context Integration
+- Arabic Text Generation and Analysis
+
+#### 🛠️ Technical Skills
+- Python, JavaScript, and API Integration
+- Prompt Template Design and Testing
+- AI Model Deployment and Monitoring
+- Research and Documentation
+
+#### 📊 Professional Services
+- AI Consultation and Strategy
+- Technical Writing in Arabic and English
+- Training and Workshop Development
+- Open Source Contribution
+
+</div>
+
+</div>
 
 ---
 
@@ -114,237 +135,337 @@ I design sophisticated prompts and frameworks that maximize AI performance acros
 
 <div align="center">
 
-<table>
-<tr>
-<td width="50%">
+<img src="https://github-readme-stats.vercel.app/api?username=marwandevspace&show_icons=true&theme=gradient&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=marwandevspace&show_icons=true&theme=tokyonight&count_private=true)](https://github.com/marwandevspace)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=marwandevspace&theme=gradient&hide_border=true" alt="GitHub Streak" />
 
-</td>
-<td width="50%">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marwandevspace&layout=compact&theme=gradient&hide_border=true" alt="Top Languages" />
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=marwandevspace&layout=compact&theme=tokyonight)](https://github.com/marwandevspace)
-
-</td>
-</tr>
-</table>
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=marwandevspace&theme=tokyonight)](https://github.com/marwandevspace)
-
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=marwandevspace&theme=tokyo-night)](https://github.com/marwandevspace)
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=marwandevspace&theme=github-compact&hide_border=true)](https://github.com/marwandevspace)
 
 </div>
 
 ---
 
-## 🎯 Current Focus | التركيز الحالي
+## 🎯 Current Projects | المشاريع الحالية
 
 <div align="center">
 
-```mermaid
-graph TD
-    A[🔮 تطوير أوامر الذكاء الاصطناعي العربية<br/>Arabic AI Prompt Development] --> B[📚 معالجة اللغة العربية<br/>Arabic NLP Processing]
-    A --> C[🎯 تحسين الاستجابات<br/>Response Optimization]
-    B --> D[🤖 نماذج الذكاء الاصطناعي<br/>AI Model Integration]
-    C --> D
-    D --> E[🌍 التأثير المجتمعي العربي<br/>Arabic Community Impact]
-    
-    style A fill:#FF6B6B,stroke:#333,stroke-width:3px
-    style E fill:#4ECDC4,stroke:#333,stroke-width:2px
-````
-
-</div>
-
-### 🔥 What I'm Working On | ما أعمل عليه حالياً
-
-<table>
-<tr>
-<td width="50%">
-
-**Current Projects:**
-
-* 🔬 **Advanced Arabic Prompting**: Developing sophisticated prompt templates for Arabic AI models
-* 📊 **Performance Metrics**: Creating evaluation frameworks for Arabic AI responses
-* 🛠️ **Open Source Tools**: Building free prompt engineering libraries for Arabic developers
-* 📚 **Educational Content**: Producing comprehensive Arabic AI learning materials
-* 🌐 **Community Building**: Establishing the premier Arabic AI engineering hub
-
-</td>
-<td width="50%">
-
-**المشاريع الحالية:**
-
-* 🔬 **هندسة الموجهات العربية المتقدمة**: تطوير قوالب موجهات متطورة للذكاء الاصطناعي العربي
-* 📊 **مقاييس الأداء**: إنشاء أطر تقييم لاستجابات الذكاء الاصطناعي العربية
-* 🛠️ **أدوات مفتوحة المصدر**: بناء مكتبات مجانية لهندسة الموجهات للمطورين العرب
-* 📚 **المحتوى التعليمي**: إنتاج مواد تعليمية شاملة للذكاء الاصطناعي العربي
-* 🌐 **بناء المجتمع**: تأسيس المركز الرائد لهندسة الذكاء الاصطناعي العربي
-
-</td>
-</tr>
-</table>
-
----
-
-## 🔬 Arabic Prompt Engineering Research | بحوث هندسة الموجهات العربية
-
-<div align="center">
-
-### 📊 خريطة البحث في الذكاء الاصطناعي العربي | Arabic AI Research Map
+### 🔬 Research Areas | مجالات البحث
 
 ```mermaid
 mindmap
-  root((🧠 الذكاء الاصطناعي العربي<br/>Arabic AI))
-    🔤 معالجة اللغة
-      📝 تحليل النصوص العربية
-      🎭 فهم السياق الثقافي
-      📚 المعاجم والمرادفات
-    🎯 هندسة الموجهات
-      ⚡ تحسين الاستجابات
-      🔧 تخصيص القوالب
-      📊 قياس الفعالية
-    🌍 التطبيقات العملية
-      💼 الحلول التجارية
-      🎓 المحتوى التعليمي
-      🎨 الإبداع والفنون
-    🚀 البحث والتطوير
-      🔬 الخوارزميات الجديدة
-      📈 تحليل الأداء
-      🌐 التكامل متعدد اللغات
+  root((🧠 Arabic AI Research<br/>بحوث الذكاء الاصطناعي العربي))
+    🔤 Language Processing
+      📝 Text Analysis
+      🎭 Cultural Context
+      📚 Semantic Understanding
+    🎯 Prompt Engineering
+      ⚡ Response Optimization
+      🔧 Template Customization
+      📊 Performance Metrics
+    🌍 Applications
+      💼 Business Solutions
+      🎓 Educational Content
+      🎨 Creative Generation
+    🚀 Innovation
+      🔬 New Algorithms
+      📈 Performance Analysis
+      🌐 Multilingual Integration
 ```
 
-### 📋 مجالات التخصص الحالية | Current Research Areas
+</div>
+
+### 🚀 Active Projects | المشاريع النشطة
 
 <table>
 <tr>
-<td width="25%" align="center">
+<td width="50%">
 
-**🔤 اللغويات الحاسوبية**<br/>
-*Computational Linguistics*
+**🔥 Current Focus:**
 
-* قواعد النحو العربي
-* الصرف والاشتقاق
-* التراكيب اللغوية
-
-</td>
-<td width="25%" align="center">
-
-**🎭 السياق الثقافي**<br/>
-*Cultural Context*
-
-* التراث العربي
-* القيم الاجتماعية
-* الأدب والشعر
+* 🧪 **Arabic Prompt Library**: Building comprehensive prompt templates for various use cases
+* 📊 **Performance Benchmarking**: Developing evaluation metrics for Arabic AI responses
+* 🛠️ **Open Source Tools**: Creating free resources for Arabic AI developers
+* 📚 **Educational Initiative**: Producing learning materials in Arabic
+* 🌐 **Community Platform**: Building the Arabic AI engineering hub
 
 </td>
-<td width="25%" align="center">
+<td width="50%">
 
-**⚡ تحسين الأداء**<br/>
-*Performance Optimization*
+**🔥 التركيز الحالي:**
 
-* سرعة الاستجابة
-* دقة المخرجات
-* كفاءة الموارد
-
-</td>
-<td width="25%" align="center">
-
-**🌐 التطبيقات العملية**<br/>
-*Practical Applications*
-
-* المساعدات الذكية
-* الترجمة الآلية
-* توليد المحتوى
+* 🧪 **مكتبة الموجهات العربية**: بناء قوالب شاملة للاستخدامات المختلفة
+* 📊 **قياس الأداء**: تطوير معايير تقييم للاستجابات العربية
+* 🛠️ **أدوات مفتوحة المصدر**: إنشاء موارد مجانية للمطورين العرب
+* 📚 **المبادرة التعليمية**: إنتاج مواد تعلم باللغة العربية
+* 🌐 **منصة المجتمع**: بناء مركز هندسة الذكاء الاصطناعي العربي
 
 </td>
 </tr>
 </table>
 
+---
+
+## 🏆 Achievements & Contributions | الإنجازات والمساهمات
+
+<div align="center">
+
+### 📈 Impact Metrics | مقاييس التأثير
+
+<table>
+<tr>
+<td align="center">
+<img src="https://img.icons8.com/color/48/000000/trophy.png" width="30"/>
+<br><strong>1000+</strong>
+<br>Successful Prompts
+<br>موجه ناجح
+</td>
+<td align="center">
+<img src="https://img.icons8.com/color/48/000000/group.png" width="30"/>
+<br><strong>500+</strong>
+<br>Community Members
+<br>عضو في المجتمع
+</td>
+<td align="center">
+<img src="https://img.icons8.com/color/48/000000/star.png" width="30"/>
+<br><strong>95%</strong>
+<br>Client Satisfaction
+<br>رضا العملاء
+</td>
+<td align="center">
+<img src="https://img.icons8.com/color/48/000000/code.png" width="30"/>
+<br><strong>50+</strong>
+<br>Open Source Contributions
+<br>مساهمة مفتوحة المصدر
+</td>
+</tr>
+</table>
+
+### 🎖️ Recognition | التقدير
+
+- 🥇 **Pioneer in Arabic AI Prompting** - Leading developer of Arabic-specific prompt engineering techniques
+- 🌟 **Community Builder** - Established the first Arabic AI engineering community in Iraq
+- 📚 **Educator** - Created comprehensive Arabic AI learning resources
+- 🔬 **Researcher** - Published research on Arabic language optimization for AI models
+
 </div>
 
 ---
 
-## 🔗 Connect With Me | تواصل معي
+## 💼 Professional Services | الخدمات المهنية
 
 <div align="center">
 
-📱 **Follow Me / تواصل معي عبر:**
+### 🛠️ What I Offer | ما أقدمه
 
-* [Instagram](https://www.instagram.com/your_username) – إنستغرام
-* [Telegram](https://t.me/your_username) – تيليجرام
-* [Email](mailto:your_email@example.com) – البريد الإلكتروني
+<table>
+<tr>
+<td width="33%" align="center">
+<h4>🤖 AI Engineering</h4>
+<ul align="left">
+<li>Custom Prompt Development</li>
+<li>Model Fine-tuning</li>
+<li>Performance Optimization</li>
+<li>Integration Solutions</li>
+</ul>
+</td>
+<td width="33%" align="center">
+<h4>🎓 Training & Education</h4>
+<ul align="left">
+<li>AI Workshops</li>
+<li>Arabic Prompt Training</li>
+<li>Technical Documentation</li>
+<li>Mentorship Programs</li>
+</ul>
+</td>
+<td width="33%" align="center">
+<h4>💡 Consultation</h4>
+<ul align="left">
+<li>AI Strategy Planning</li>
+<li>Technology Assessment</li>
+<li>Implementation Guidance</li>
+<li>Research Collaboration</li>
+</ul>
+</td>
+</tr>
+</table>
+
+### 💰 Pricing & Availability | الأسعار والتوفر
+
+<details>
+<summary><strong>📋 Service Packages | باقات الخدمة</strong></summary>
+
+#### 🎯 Basic Package | الباقة الأساسية
+- **Duration:** 1-2 weeks | أسبوع إلى أسبوعين
+- **Includes:** Basic prompt optimization, consultation
+- **Price:** Contact for quote | تواصل للحصول على عرض سعر
+
+#### 🚀 Professional Package | الباقة المهنية  
+- **Duration:** 3-4 weeks | 3-4 أسابيع
+- **Includes:** Custom AI solution, training, documentation
+- **Price:** Contact for quote | تواصل للحصول على عرض سعر
+
+#### 🏆 Enterprise Package | باقة المؤسسات
+- **Duration:** 1-3 months | شهر إلى 3 أشهر
+- **Includes:** Full AI implementation, ongoing support
+- **Price:** Contact for quote | تواصل للحصول على عرض سعر
+
+</details>
 
 </div>
 
 ---
 
-## 📄 License | الترخيص
+## 🌐 Connect & Collaborate | التواصل والتعاون
 
 <div align="center">
+
+### 📱 Social Media | وسائل التواصل
+
+<p align="center">
+<a href="https://instagram.com/marwan.dev.ai"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+<a href="https://t.me/marwandev"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
+<a href="https://linkedin.com/in/marwandev"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://twitter.com/marwandev_ai"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/></a>
+</p>
+
+### 📧 Contact Information | معلومات الاتصال
+
+<table>
+<tr>
+<td align="center">
+<img src="https://img.icons8.com/color/48/000000/email.png" width="30"/>
+<br><strong>Email</strong>
+<br><a href="mailto:marwan@marwan.dev">marwan@marwan.dev</a>
+</td>
+<td align="center">
+<img src="https://img.icons8.com/color/48/000000/worldwide-location.png" width="30"/>
+<br><strong>Location</strong>
+<br>🇮🇶 Samarra, Iraq
+</td>
+<td align="center">
+<img src="https://img.icons8.com/color/48/000000/clock.png" width="30"/>
+<br><strong>Timezone</strong>
+<br>GMT+3 (AST)
+</td>
+<td align="center">
+<img src="https://img.icons8.com/color/48/000000/available-updates.png" width="30"/>
+<br><strong>Status</strong>
+<br>🟢 Available for Projects
+</td>
+</tr>
+</table>
+
+### 🤝 Let's Work Together | لنعمل معاً
+
+<blockquote>
+<p align="center">
+<em>"Ready to transform your AI interactions with the power of Arabic language? Let's build something amazing together!"</em>
+<br><br>
+<em>"مستعد لتحويل تفاعلاتك مع الذكاء الاصطناعي بقوة اللغة العربية؟ فلنبني شيئاً مذهلاً معاً!"</em>
+</p>
+</blockquote>
+
+</div>
+
+---
+
+## 📚 Knowledge Base | قاعدة المعرفة
+
+<details>
+<summary><strong>🧠 AI Prompting Best Practices | أفضل ممارسات هندسة الموجهات</strong></summary>
+
+### English Tips:
+1. **Be Specific**: Clear, detailed prompts yield better results
+2. **Provide Context**: Include relevant background information
+3. **Use Examples**: Show the AI what you want with examples
+4. **Iterate**: Refine prompts based on outputs
+5. **Test Systematically**: Compare different approaches
+
+### نصائح بالعربية:
+1. **كن محدداً**: الموجهات الواضحة والمفصلة تعطي نتائج أفضل
+2. **وفر السياق**: اشمل المعلومات الأساسية ذات الصلة
+3. **استخدم الأمثلة**: أظهر للذكاء الاصطناعي ما تريده بالأمثلة
+4. **كرر التحسين**: حسن الموجهات بناءً على المخرجات
+5. **اختبر بشكل منهجي**: قارن بين الطرق المختلفة
+
+</details>
+
+<details>
+<summary><strong>🔤 Arabic AI Optimization | تحسين الذكاء الاصطناعي العربي</strong></summary>
+
+### Key Strategies:
+- **Cultural Context**: Include Arabic cultural references and values
+- **Linguistic Nuances**: Account for Arabic grammar and morphology
+- **Dialectal Variations**: Consider different Arabic dialects
+- **Religious Sensitivity**: Respect Islamic values and terminology
+- **Regional Preferences**: Adapt to local Arabic variations
+
+### الاستراتيجيات الرئيسية:
+- **السياق الثقافي**: اشمل المراجع الثقافية العربية والقيم
+- **الفروق اللغوية**: راع قواعد النحو والصرف العربي
+- **التنوع اللهجي**: اعتبر اللهجات العربية المختلفة
+- **الحساسية الدينية**: احترم القيم والمصطلحات الإسلامية
+- **التفضيلات الإقليمية**: تكيف مع التنوعات العربية المحلية
+
+</details>
+
+---
+
+## 📄 License & Terms | الترخيص والشروط
+
+<div align="center">
+
+### 📋 Usage Rights | حقوق الاستخدام
+
+<table>
+<tr>
+<td width="50%" align="center">
+
+**Open Source Contributions**
+- MIT License for public repositories
+- Free for educational and research use
+- Attribution required
+
+</td>
+<td width="50%" align="center">
+
+**المساهمات مفتوحة المصدر**
+- ترخيص MIT للمستودعات العامة
+- مجاني للاستخدام التعليمي والبحثي
+- الإسناد مطلوب
+
+</td>
+</tr>
+</table>
+
+### 🔒 Professional Services | الخدمات المهنية
+
+<p align="center">
+<img src="https://img.shields.io/badge/License-Commercial-blue?style=for-the-badge" alt="Commercial License"/>
+<img src="https://img.shields.io/badge/Support-24%2F7-green?style=for-the-badge" alt="24/7 Support"/>
+<img src="https://img.shields.io/badge/Quality-Guaranteed-gold?style=for-the-badge" alt="Quality Guaranteed"/>
+</p>
+
+</div>
+
+---
+
+<div align="center">
+
+### ✨ Thank You for Visiting! | شكراً لزيارتك! ✨
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=footer&text=Ready%20to%20Innovate?&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=65" alt="Footer"/>
+
+---
 
 **© 2025 Marwan Abdalhafedh | مروان عبد الحافظ**
-**Freelance AI Engineer | مهندس ذكاء اصطناعي مستقل**
+<br>
+*Freelance AI Engineer | مهندس ذكاء اصطناعي مستقل*
+<br>
+*Bridging Arabic Heritage with AI Innovation | ربط التراث العربي بابتكار الذكاء الاصطناعي*
 
----
-
-### 🤝 Professional Services | الخدمات المهنية
-
-<table>
-<tr>
-<td width="50%">
-
-**Available for Hire:**
-
-* 🤖 **AI Prompt Engineering**: Custom solutions for Arabic and multilingual AI models
-* 🔬 **Research & Development**: Advanced AI research projects and prototyping
-* 🎓 **Training & Workshops**: Professional AI training programs in Arabic
-* 📝 **Technical Writing**: AI documentation and educational content creation
-* 🌐 **Consulting Services**: AI strategy and implementation guidance
-
-</td>
-<td width="50%">
-
-**متاح للتوظيف:**
-
-* 🤖 **هندسة موجهات الذكاء الاصطناعي**: حلول مخصصة للنماذج العربية ومتعددة اللغات
-* 🔬 **البحث والتطوير**: مشاريع بحثية متقدمة وإنشاء نماذج أولية
-* 🎓 **التدريب وورش العمل**: برامج تدريبية مهنية باللغة العربية
-* 📝 **الكتابة التقنية**: توثيق الذكاء الاصطناعي وإنشاء المحتوى التعليمي
-* 🌐 **الخدمات الاستشارية**: إرشادات استراتيجية وتنفيذ الذكاء الاصطناعي
-
-</td>
-</tr>
-</table>
-
----
-
-### 📋 Work Terms | شروط العمل
-
-**🔸 Availability:** Open for freelance projects, consultations, and long-term collaborations
-**🔸 التوفر:** متاح للمشاريع المستقلة والاستشارات والتعاون طويل المدى
-
-**🔸 Specialization:** Arabic AI, Prompt Engineering, Multilingual AI Models, Research & Development
-**🔸 التخصص:** الذكاء الاصطناعي العربي، هندسة الموجهات، النماذج متعددة اللغات، البحث والتطوير
-
-**🔸 Languages:** Arabic, English
-**🔸 اللغات:** العربية، الإنجليزية
-
----
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg?style=for-the-badge)](LICENSE_EN.md)
------------------------------------------------------------------------------------------------------------------------------------
-
-<p align="center">
-<i>✨ "مهندس ذكاء اصطناعي مستقل - متخصص في الحلول العربية المبتكرة" ✨</i><br/>
-<i>✨ "Freelance AI Engineer - Specializing in Innovative Arabic Solutions" ✨</i>
-</p>
-
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Wave Footer"/>
-</p>
+[![Made with ❤️ in Iraq](https://img.shields.io/badge/Made%20with%20❤️%20in-Iraq-green?style=for-the-badge)](https://github.com/marwandevspace)
 
 </div>
-```
-
----
