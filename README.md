@@ -280,8 +280,6 @@ mindmap
 - 📝 **Technical Writing**: AI documentation and educational content creation
 - 🌐 **Consulting Services**: AI strategy and implementation guidance
 
-**Contact:** [contact@marwan.dev](mailto:contact@marwan.dev)
-
 </td>
 <td width="50%">
 
@@ -291,8 +289,6 @@ mindmap
 - 🎓 **التدريب وورش العمل**: برامج تدريبية مهنية باللغة العربية
 - 📝 **الكتابة التقنية**: توثيق الذكاء الاصطناعي وإنشاء المحتوى التعليمي
 - 🌐 **الخدمات الاستشارية**: إرشادات استراتيجية وتنفيذ الذكاء الاصطناعي
-
-**للتواصل:** [contact@marwan.dev](mailto:contact@marwan.dev)
 
 </td>
 </tr>
