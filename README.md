@@ -14,7 +14,7 @@
 
 ## 📚 Table of Contents | جدول المحتويات
 - [🌟 Overview | نظرة عامة](#-overview--نظرة-عامة)
-- [👨‍💻 About Me | نبذة عني](#-about-me--نبذة-عني)
+- [👨‍💻 About Me | نبذة عني](#-about-me--نبذة-عنّي)
 - [🎯 Mission & Vision | المهمة والرؤية](#-mission--vision--المهمة-والرؤية)
 - [📊 GitHub Analytics | إحصائيات GitHub](#-github-analytics--إحصائيات-github)
 - [🎯 Current Focus | التركيز الحالي](#-current-focus--التركيز-الحالي)
@@ -151,7 +151,7 @@ graph TD
     
     style A fill:#FF6B6B,stroke:#333,stroke-width:3px
     style E fill:#4ECDC4,stroke:#333,stroke-width:2px
-```
+````
 
 </div>
 
@@ -162,21 +162,23 @@ graph TD
 <td width="50%">
 
 **Current Projects:**
-- 🔬 **Advanced Arabic Prompting**: Developing sophisticated prompt templates for Arabic AI models
-- 📊 **Performance Metrics**: Creating evaluation frameworks for Arabic AI responses
-- 🛠️ **Open Source Tools**: Building free prompt engineering libraries for Arabic developers
-- 📚 **Educational Content**: Producing comprehensive Arabic AI learning materials
-- 🌐 **Community Building**: Establishing the premier Arabic AI engineering hub
+
+* 🔬 **Advanced Arabic Prompting**: Developing sophisticated prompt templates for Arabic AI models
+* 📊 **Performance Metrics**: Creating evaluation frameworks for Arabic AI responses
+* 🛠️ **Open Source Tools**: Building free prompt engineering libraries for Arabic developers
+* 📚 **Educational Content**: Producing comprehensive Arabic AI learning materials
+* 🌐 **Community Building**: Establishing the premier Arabic AI engineering hub
 
 </td>
 <td width="50%">
 
 **المشاريع الحالية:**
-- 🔬 **هندسة الموجهات العربية المتقدمة**: تطوير قوالب موجهات متطورة للذكاء الاصطناعي العربي
-- 📊 **مقاييس الأداء**: إنشاء أطر تقييم لاستجابات الذكاء الاصطناعي العربية
-- 🛠️ **أدوات مفتوحة المصدر**: بناء مكتبات مجانية لهندسة الموجهات للمطورين العرب
-- 📚 **المحتوى التعليمي**: إنتاج مواد تعليمية شاملة للذكاء الاصطناعي العربي
-- 🌐 **بناء المجتمع**: تأسيس المركز الرائد لهندسة الذكاء الاصطناعي العربي
+
+* 🔬 **هندسة الموجهات العربية المتقدمة**: تطوير قوالب موجهات متطورة للذكاء الاصطناعي العربي
+* 📊 **مقاييس الأداء**: إنشاء أطر تقييم لاستجابات الذكاء الاصطناعي العربية
+* 🛠️ **أدوات مفتوحة المصدر**: بناء مكتبات مجانية لهندسة الموجهات للمطورين العرب
+* 📚 **المحتوى التعليمي**: إنتاج مواد تعليمية شاملة للذكاء الاصطناعي العربي
+* 🌐 **بناء المجتمع**: تأسيس المركز الرائد لهندسة الذكاء الاصطناعي العربي
 
 </td>
 </tr>
@@ -219,36 +221,40 @@ mindmap
 
 **🔤 اللغويات الحاسوبية**<br/>
 *Computational Linguistics*
-- قواعد النحو العربي
-- الصرف والاشتقاق
-- التراكيب اللغوية
+
+* قواعد النحو العربي
+* الصرف والاشتقاق
+* التراكيب اللغوية
 
 </td>
 <td width="25%" align="center">
 
 **🎭 السياق الثقافي**<br/>
 *Cultural Context*
-- التراث العربي
-- القيم الاجتماعية
-- الأدب والشعر
+
+* التراث العربي
+* القيم الاجتماعية
+* الأدب والشعر
 
 </td>
 <td width="25%" align="center">
 
 **⚡ تحسين الأداء**<br/>
 *Performance Optimization*
-- سرعة الاستجابة
-- دقة المخرجات
-- كفاءة الموارد
+
+* سرعة الاستجابة
+* دقة المخرجات
+* كفاءة الموارد
 
 </td>
 <td width="25%" align="center">
 
 **🌐 التطبيقات العملية**<br/>
 *Practical Applications*
-- المساعدات الذكية
-- الترجمة الآلية
-- توليد المحتوى
+
+* المساعدات الذكية
+* الترجمة الآلية
+* توليد المحتوى
 
 </td>
 </tr>
@@ -258,11 +264,25 @@ mindmap
 
 ---
 
+## 🔗 Connect With Me | تواصل معي
+
+<div align="center">
+
+📱 **Follow Me / تواصل معي عبر:**
+
+* [Instagram](https://www.instagram.com/your_username) – إنستغرام
+* [Telegram](https://t.me/your_username) – تيليجرام
+* [Email](mailto:your_email@example.com) – البريد الإلكتروني
+
+</div>
+
+---
+
 ## 📄 License | الترخيص
 
 <div align="center">
 
-**© 2025 Marwan Abdalhafedh | مروان عبد الحافظ**  
+**© 2025 Marwan Abdalhafedh | مروان عبد الحافظ**
 **Freelance AI Engineer | مهندس ذكاء اصطناعي مستقل**
 
 ---
@@ -274,21 +294,23 @@ mindmap
 <td width="50%">
 
 **Available for Hire:**
-- 🤖 **AI Prompt Engineering**: Custom solutions for Arabic and multilingual AI models
-- 🔬 **Research & Development**: Advanced AI research projects and prototyping  
-- 🎓 **Training & Workshops**: Professional AI training programs in Arabic
-- 📝 **Technical Writing**: AI documentation and educational content creation
-- 🌐 **Consulting Services**: AI strategy and implementation guidance
+
+* 🤖 **AI Prompt Engineering**: Custom solutions for Arabic and multilingual AI models
+* 🔬 **Research & Development**: Advanced AI research projects and prototyping
+* 🎓 **Training & Workshops**: Professional AI training programs in Arabic
+* 📝 **Technical Writing**: AI documentation and educational content creation
+* 🌐 **Consulting Services**: AI strategy and implementation guidance
 
 </td>
 <td width="50%">
 
 **متاح للتوظيف:**
-- 🤖 **هندسة موجهات الذكاء الاصطناعي**: حلول مخصصة للنماذج العربية ومتعددة اللغات
-- 🔬 **البحث والتطوير**: مشاريع بحثية متقدمة وإنشاء نماذج أولية
-- 🎓 **التدريب وورش العمل**: برامج تدريبية مهنية باللغة العربية
-- 📝 **الكتابة التقنية**: توثيق الذكاء الاصطناعي وإنشاء المحتوى التعليمي
-- 🌐 **الخدمات الاستشارية**: إرشادات استراتيجية وتنفيذ الذكاء الاصطناعي
+
+* 🤖 **هندسة موجهات الذكاء الاصطناعي**: حلول مخصصة للنماذج العربية ومتعددة اللغات
+* 🔬 **البحث والتطوير**: مشاريع بحثية متقدمة وإنشاء نماذج أولية
+* 🎓 **التدريب وورش العمل**: برامج تدريبية مهنية باللغة العربية
+* 📝 **الكتابة التقنية**: توثيق الذكاء الاصطناعي وإنشاء المحتوى التعليمي
+* 🌐 **الخدمات الاستشارية**: إرشادات استراتيجية وتنفيذ الذكاء الاصطناعي
 
 </td>
 </tr>
@@ -298,20 +320,20 @@ mindmap
 
 ### 📋 Work Terms | شروط العمل
 
-**🔸 Availability:** Open for freelance projects, consultations, and long-term collaborations  
+**🔸 Availability:** Open for freelance projects, consultations, and long-term collaborations
 **🔸 التوفر:** متاح للمشاريع المستقلة والاستشارات والتعاون طويل المدى
 
-**🔸 Specialization:** Arabic AI, Prompt Engineering, Multilingual AI Models, Research & Development  
+**🔸 Specialization:** Arabic AI, Prompt Engineering, Multilingual AI Models, Research & Development
 **🔸 التخصص:** الذكاء الاصطناعي العربي، هندسة الموجهات، النماذج متعددة اللغات، البحث والتطوير
 
-**🔸 Languages:** Arabic, English  
+**🔸 Languages:** Arabic, English
 **🔸 اللغات:** العربية، الإنجليزية
 
 ---
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg?style=for-the-badge)](LICENSE_EN.md)
----
+-----------------------------------------------------------------------------------------------------------------------------------
 
 <p align="center">
 <i>✨ "مهندس ذكاء اصطناعي مستقل - متخصص في الحلول العربية المبتكرة" ✨</i><br/>
@@ -323,3 +345,6 @@ mindmap
 </p>
 
 </div>
+```
+
+---
