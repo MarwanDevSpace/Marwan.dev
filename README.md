@@ -309,9 +309,8 @@ mindmap
 
 <div align="center">
 
-> ### "Every great achievement begins with a conversation"
+> ### "Every great achievement begins with a conversation" "كل إنجاز عظيم يبدأ بمحادثة"
 
-> ### "كل إنجاز عظيم يبدأ بمحادثة"
 ---
 
 <div align="center">
