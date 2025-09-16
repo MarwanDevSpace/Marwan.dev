@@ -54,3 +54,10 @@ Full legal text: [https://creativecommons.org/licenses/by-nc/4.0/](https://creat
 ## Attribution Example
 
 If you use content (not code) from this project, please include attribution like this:
+
+---
+
+## 📌 Summary
+
+- **Code (HTML, CSS, JS, etc.)** → Licensed under **MIT License** → Free use, including commercial.  
+- **Content (prompts, examples, documentation)** → Licensed under **CC BY-NC 4.0** → Free for non-commercial use, with proper attribution.  
