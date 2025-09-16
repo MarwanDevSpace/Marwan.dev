@@ -51,7 +51,7 @@
 
 ## 👨‍💻 About Me | نبذة عني
 
-<img align="right" alt="AI Engineering" width="300" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+<img align="right" alt="AI Engineering" width="300" src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png">
 
 ### English
 
