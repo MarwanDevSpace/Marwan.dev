@@ -264,7 +264,6 @@ mindmap
 
 **© 2025 Marwan Abdalhafedh | مروان عبد الحافظ**  
 **Freelance AI Engineer | مهندس ذكاء اصطناعي مستقل**
----
 ![License: Custom](https://img.shields.io/badge/License-Freelance_Available-brightgreen.svg?style=for-the-badge)
 ---
 
