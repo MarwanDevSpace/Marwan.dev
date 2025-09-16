@@ -308,12 +308,12 @@ mindmap
 **🔸 Specialization:** Arabic AI, Prompt Engineering, Multilingual AI Models, Research & Development  
 **🔸 التخصص:** الذكاء الاصطناعي العربي، هندسة الموجهات، النماذج متعددة اللغات، البحث والتطوير
 
-**🔸 Languages:** Arabic, English, Kurdish  
-**🔸 اللغات:** العربية، الإنجليزية، الكردية
+**🔸 Languages:** Arabic, English  
+**🔸 اللغات:** العربية، الإنجليزية
 
 ---
 
-[![License: Custom](https://img.shields.io/badge/License-Freelance_Available-brightgreen.svg?style=for-the-badge)](mailto:contact@marwan.dev)
+[![License: Custom](https://img.shields.io/badge/License-Freelance_Available-brightgreen.svg?style=for-the-badge)]
 
 ---
 
