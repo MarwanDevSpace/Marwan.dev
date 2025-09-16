@@ -268,7 +268,7 @@ mindmap
 
 ### 🌐 Let's Build the Future of Arabic AI Together | لنبني مستقبل الذكاء الاصطناعي العربي معاً
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="100" alt="Connect"/>
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mirror%20Ball.png" width="100" alt="Connect"/> 
 
 ---
 
