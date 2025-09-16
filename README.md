@@ -32,13 +32,13 @@
 <tr>
 <td>
 
-### 🇺🇸 English
+### English
 **Welcome to Marwan.dev** – Your gateway to advanced AI prompt engineering with a special focus on the richness and eloquence of the Arabic language. Here, innovation meets tradition, and cutting-edge AI technology embraces the depth of one of the world's most expressive languages.
 
 </td>
 <td>
 
-### 🇸🇦 العربية
+### العربية
 **مرحباً بكم في Marwan.dev** – بوابتكم إلى هندسة موجهات الذكاء الاصطناعي المتقدمة مع التركيز الخاص على ثراء وفصاحة اللغة العربية. هنا يلتقي الابتكار بالتراث، وتحتضن تقنيات الذكاء الاصطناعي المتطورة عمق إحدى أكثر لغات العالم تعبيراً.
 
 </td>
@@ -53,25 +53,25 @@
 
 <img align="right" alt="AI Engineering" width="300" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
-### 🇺🇸 English
+### English
 
 Hi there! I'm **Marwan Abdalhafedh** 👋
 
 🔹 **AI Prompt Engineer** passionate about bridging the gap between advanced AI technology and the Arabic language  
 🔹 **Location:** 📍 Iraq 🇮🇶  
 🔹 **Focus:** AI/ML, NLP, Prompt Engineering, Arabic Language Processing  
-🔹 **Experience:** 3+ years in AI prompt optimization and language modeling  
-🔹 **Languages:** Arabic (Native), English (Fluent), Kurdish (Conversational)
+🔹 **Experience:** 1+ years in AI prompt optimization and language modeling  
+🔹 **Languages:** Arabic (Native), English (Fluent)
 
-### 🇸🇦 العربية
+### العربية
 
 مرحباً! أنا **مروان عبد الحافظ** 👋
 
 🔹 **مهندس موجهات ذكاء اصطناعي** متحمس لربط التقنيات المتقدمة باللغة العربية  
 🔹 **الموقع:** 📍 العراق 🇮🇶  
 🔹 **التخصص:** الذكاء الاصطناعي، معالجة اللغات الطبيعية، هندسة الموجهات العربية  
-🔹 **الخبرة:** أكثر من 3 سنوات في تحسين موجهات الذكاء الاصطناعي ونمذجة اللغة  
-🔹 **اللغات:** العربية (لغة أم)، الإنجليزية (بطلاقة)، الكردية (محادثة)
+🔹 **الخبرة:** أكثر من سنة في تحسين موجهات الذكاء الاصطناعي ونمذجة اللغة  
+🔹 **اللغات:** العربية (لغة أم)، الإنجليزية (بطلاقة)
 
 ---
 
@@ -81,7 +81,7 @@ Hi there! I'm **Marwan Abdalhafedh** 👋
 <tr>
 <td width="50%">
 
-### 🇺🇸 Mission
+### Mission
 > **"Elevate AI interactions through the power and elegance of the Arabic language"**
 
 I design sophisticated prompts and frameworks that maximize AI performance across text, image, and video generation models. My mission is to:
@@ -94,7 +94,7 @@ I design sophisticated prompts and frameworks that maximize AI performance acros
 </td>
 <td width="50%">
 
-### 🇸🇦 الرؤية
+### الرؤية
 > **"الارتقاء بالتفاعل مع الذكاء الاصطناعي من خلال قوة وأناقة اللغة العربية"**
 
 أصمم موجهات وأطر عمل متطورة تعظم أداء نماذج الذكاء الاصطناعي. رسالتي هي:
@@ -161,7 +161,7 @@ graph TD
 <tr>
 <td width="50%">
 
-**🇺🇸 Current Projects:**
+**Current Projects:**
 - 🔬 **Advanced Arabic Prompting**: Developing sophisticated prompt templates for Arabic AI models
 - 📊 **Performance Metrics**: Creating evaluation frameworks for Arabic AI responses
 - 🛠️ **Open Source Tools**: Building free prompt engineering libraries for Arabic developers
@@ -171,7 +171,7 @@ graph TD
 </td>
 <td width="50%">
 
-**🇸🇦 المشاريع الحالية:**
+**المشاريع الحالية:**
 - 🔬 **هندسة الموجهات العربية المتقدمة**: تطوير قوالب موجهات متطورة للذكاء الاصطناعي العربي
 - 📊 **مقاييس الأداء**: إنشاء أطر تقييم لاستجابات الذكاء الاصطناعي العربية
 - 🛠️ **أدوات مفتوحة المصدر**: بناء مكتبات مجانية لهندسة الموجهات للمطورين العرب
@@ -273,7 +273,7 @@ mindmap
 <tr>
 <td width="50%">
 
-**🇺🇸 Available for Hire:**
+**Available for Hire:**
 - 🤖 **AI Prompt Engineering**: Custom solutions for Arabic and multilingual AI models
 - 🔬 **Research & Development**: Advanced AI research projects and prototyping  
 - 🎓 **Training & Workshops**: Professional AI training programs in Arabic
@@ -285,7 +285,7 @@ mindmap
 </td>
 <td width="50%">
 
-**🇸🇦 متاح للتوظيف:**
+**متاح للتوظيف:**
 - 🤖 **هندسة موجهات الذكاء الاصطناعي**: حلول مخصصة للنماذج العربية ومتعددة اللغات
 - 🔬 **البحث والتطوير**: مشاريع بحثية متقدمة وإنشاء نماذج أولية
 - 🎓 **التدريب وورش العمل**: برامج تدريبية مهنية باللغة العربية
