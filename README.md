@@ -310,18 +310,6 @@ mindmap
 </table>
 
 ---
-
-### 🚀 Quick Connect Options | خيارات التواصل السريع
-
-<div align="center">
-
-<table>
-<tr>
-<td width="33%" align="center">
-
-#### 💼 Business Inquiries
-**استفسارات العمل**
-
 <a href="mailto:business@marwan.dev?subject=Business%20Inquiry%20-%20AI%20Services">
 <img src="https://img.shields.io/badge/Send%20Email-Business-success?style=for-the-badge&logo=mail.ru&logoColor=white" alt="Business Email"/>
 </a>
@@ -366,80 +354,6 @@ mindmap
 
 ---
 
-### 🌍 Find Me Around the Web | ابحث عني عبر الويب
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="40" height="40" alt="GitHub"/>
-<br/>
-<strong>GitHub</strong><br/>
-<a href="https://github.com/marwandevspace">@marwandevspace</a>
-</td>
-<td align="center">
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" width="40" height="40" alt="Medium"/>
-<br/>
-<strong>Medium</strong><br/>
-<a href="https://medium.com/@marwanai">AI Articles</a>
-</td>
-<td align="center">
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" width="40" height="40" alt="Dev.to"/>
-<br/>
-<strong>Dev.to</strong><br/>
-<a href="https://dev.to/marwanai">Tech Posts</a>
-</td>
-<td align="center">
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" width="40" height="40" alt="YouTube"/>
-<br/>
-<strong>YouTube</strong><br/>
-<a href="https://youtube.com/@marwanaidev">AI Tutorials</a>
-</td>
-<td align="center">
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/discord.svg" width="40" height="40" alt="Discord"/>
-<br/>
-<strong>Discord</strong><br/>
-<a href="https://discord.gg/arabicai">Arabic AI Hub</a>
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-### 📱 Response Time & Availability | وقت الاستجابة والتوفر
-
-<div align="center">
-
-<table>
-<tr>
-<td width="50%">
-
-#### ⚡ Response Times | أوقات الاستجابة
-
-- 📧 **Email**: 24-48 hours | 24-48 ساعة
-- 💬 **Telegram**: 2-6 hours | 2-6 ساعات
-- 💼 **Business Inquiries**: Same day | نفس اليوم
-- 🎓 **Research Queries**: 1-3 days | 1-3 أيام
-
-</td>
-<td width="50%">
-
-#### 🕐 Best Contact Times | أفضل أوقات التواصل
-
-- 🌍 **Timezone**: GMT+3 (Baghdad Time)
-- 🕘 **Business Hours**: 9 AM - 6 PM GST
-- 🌙 **Evening**: Available for urgent matters
-- 📅 **Weekend**: Limited availability
-
-</td>
-</tr>
-</table>
-
-</div>
-
 ---
 
 ### 🤝 Let's Collaborate | لنتعاون
@@ -448,14 +362,6 @@ mindmap
 
 > ### "Every great achievement begins with a conversation"
 > ### "كل إنجاز عظيم يبدأ بمحادثة"
-
-<br/>
-
-**I'm always excited to connect with fellow AI enthusiasts, researchers, and innovators!**
-
-**أنا متحمس دائماً للتواصل مع زملاء المهتمين بالذكاء الاصطناعي والباحثين والمبدعين!**
-
-<br/>
 
 [![Let's Connect](https://img.shields.io/badge/Let's%20Connect-Choose%20Your%20Platform-ff6b6b?style=for-the-badge&logo=handshake&logoColor=white)](#)
 
