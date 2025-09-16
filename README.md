@@ -48,7 +48,6 @@
 </div>
 
 ---
-
 ## 👨‍💻 About Me | نبذة عني
 
 <img align="right" alt="AI Engineering" width="250" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Writing%20Hand%20Light%20Skin%20Tone.png"> 
@@ -72,7 +71,6 @@ Hi there! I'm **Marwan Abdalhafedh** 👋
 🔹 **التخصص:** الذكاء الاصطناعي، معالجة اللغات الطبيعية، هندسة الموجهات العربية  
 🔹 **الخبرة:** أكثر من سنة في تحسين موجهات الذكاء الاصطناعي ونمذجة اللغة  
 🔹 **اللغات:** العربية، الإنجليزية
-
 ---
 
 ## 🎯 Mission & Vision | المهمة والرؤية
