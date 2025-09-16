@@ -310,51 +310,6 @@ mindmap
 </table>
 
 ---
-<a href="mailto:business@marwan.dev?subject=Business%20Inquiry%20-%20AI%20Services">
-<img src="https://img.shields.io/badge/Send%20Email-Business-success?style=for-the-badge&logo=mail.ru&logoColor=white" alt="Business Email"/>
-</a>
-
-*For freelance projects, collaborations, and consulting services*
-
-*للمشاريع المستقلة والتعاون والخدمات الاستشارية*
-
-</td>
-<td width="33%" align="center">
-
-#### 🎓 Learning & Research
-**التعلم والبحث**
-
-<a href="mailto:research@marwan.dev?subject=Research%20Collaboration%20-%20Arabic%20AI">
-<img src="https://img.shields.io/badge/Send%20Email-Research-informational?style=for-the-badge&logo=microscope&logoColor=white" alt="Research Email"/>
-</a>
-
-*For academic collaborations, research partnerships, and knowledge sharing*
-
-*للتعاون الأكاديمي وشراكات البحث وتبادل المعرفة*
-
-</td>
-<td width="33%" align="center">
-
-#### 💬 General Chat
-**المحادثة العامة**
-
-<a href="https://t.me/MarwanAIDev">
-<img src="https://img.shields.io/badge/Join%20Chat-Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Chat"/>
-</a>
-
-*For casual discussions about AI, technology, and Arabic language*
-
-*للمناقشات العامة حول الذكاء الاصطناعي والتقنية واللغة العربية*
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
----
 
 ### 🤝 Let's Collaborate | لنتعاون
 
