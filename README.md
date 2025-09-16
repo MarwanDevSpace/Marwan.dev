@@ -289,7 +289,7 @@ mindmap
 </td>
 <td width="50%" align="center">
 
-### 🌟 Social & Community | المجتمع والتواصل
+### 🌟 Social | التواصل
 
 <div align="center">
 
