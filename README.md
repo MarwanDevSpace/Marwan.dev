@@ -316,9 +316,8 @@ mindmap
 <div align="center">
 
 > ### "Every great achievement begins with a conversation"
-> ### "كل إنجاز عظيم يبدأ بمحادثة"
 
-[![Let's Connect](https://img.shields.io/badge/Let's%20Connect-Choose%20Your%20Platform-ff6b6b?style=for-the-badge&logo=handshake&logoColor=white)](#)
+> ### "كل إنجاز عظيم يبدأ بمحادثة"
 
 </div>
 
