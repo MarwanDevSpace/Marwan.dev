@@ -330,11 +330,10 @@ mindmap
 
 </div>
 
-## 📄 License | الترخيص
+## 📄 Licenses | التراخيص
 
 <div align="center">
 
-**© 2025 Marwan Abdalhafedh | مروان عبد الحافظ**
 **Freelance AI Engineer | مهندس ذكاء اصطناعي مستقل**
 
 ---
