@@ -264,7 +264,7 @@ mindmap
 
 **© 2025 Marwan Abdalhafedh | مروان عبد الحافظ**  
 **Freelance AI Engineer | مهندس ذكاء اصطناعي مستقل**
-![License: Custom](https://img.shields.io/badge/License-Freelance_Available-brightgreen.svg?style=for-the-badge)
+
 ---
 
 ### 🤝 Professional Services | الخدمات المهنية
@@ -307,6 +307,11 @@ mindmap
 **🔸 Languages:** Arabic, English  
 **🔸 اللغات:** العربية، الإنجليزية
 
+---
+
+![License: Custom](https://img.shields.io/badge/License-Freelance_Available-brightgreen.svg?style=for-the-badge)
+
+---
 
 <p align="center">
 <i>✨ "مهندس ذكاء اصطناعي مستقل - متخصص في الحلول العربية المبتكرة" ✨</i><br/>
