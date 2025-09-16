@@ -318,17 +318,15 @@ mindmap
 > ### "Every great achievement begins with a conversation"
 
 > ### "كل إنجاز عظيم يبدأ بمحادثة"
-
-</div>
-
 ---
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand%20Medium%20Skin%20Tone.png" width="50" alt="Waving Hand"/>
 
 **Looking forward to hearing from you! | أتطلع للتواصل معكم!**
-
 </div>
+
+---
 
 ## 📄 Licenses | التراخيص
 
