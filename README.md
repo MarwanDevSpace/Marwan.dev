@@ -280,11 +280,9 @@ mindmap
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/📧%20Email-marwan.dev@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:marwan.dev@gmail.com)
+[![Email](https://img.shields.io/badge/%20Email-marwan.dev@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:marwan.a.discord@gmail.com)
 
-[![LinkedIn](https://img.shields.io/badge/💼%20LinkedIn-Marwan%20Abdalhafedh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/marwan-abdalhafedh)
-
-[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-marwan.dev-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://marwan.dev)
+[![Portfolio](https://img.shields.io/badge/%20Portfolio-marwan.dev-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://marwandevspace.github.io/Marwan.dev/)
 
 </div>
 
@@ -295,11 +293,9 @@ mindmap
 
 <div align="center">
 
-[![Instagram](https://img.shields.io/badge/📸%20Instagram-@marwan.ai.dev-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/marwan.ai.dev)
+[![Instagram](https://img.shields.io/badge/%20Instagram-@marwan.ai.dev-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mo.os/)
 
-[![Telegram](https://img.shields.io/badge/💬%20Telegram-@MarwanAIDev-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MarwanAIDev)
-
-[![Twitter](https://img.shields.io/badge/🐦%20Twitter-@MarwanAIDev-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/MarwanAIDev)
+[![Telegram](https://img.shields.io/badge/%20Telegram-@MarwanAIDev-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MarwanAIDev)
 
 </div>
 
