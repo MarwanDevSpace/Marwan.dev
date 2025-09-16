@@ -337,10 +337,5 @@ mindmap
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg?style=for-the-badge)](LICENSE_EN.md)
-
-<p align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Wave Footer"/>
-</p>
-
-ㅤ
 -----------------------------------------------------------------------------------------------------------------------------------
