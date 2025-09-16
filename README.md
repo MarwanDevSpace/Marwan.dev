@@ -51,7 +51,7 @@
 
 ## 👨‍💻 About Me | نبذة عني
 
-<img align="right" alt="AI Engineering" width="250" src="https://user-images.githubusercontent.com/74038190/214644152-52f47eb3-5e31-4f47-8758-05c9468d5596.gif">
+<img align="right" alt="AI Engineering" width="250" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Writing%20Hand%20Light%20Skin%20Tone.png"> 
 
 ### English
 
